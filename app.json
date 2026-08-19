@@ -1,0 +1,94 @@
+{
+  "expo": {
+    "name": "NewBuild Connect",
+    "slug": "newbuild-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "newbuildconnect",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#003366"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.newbuildconnect.app",
+      "buildNumber": "2",
+      "deploymentTarget": "15.1",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "NewBuild Connect uses your location to show nearby Arizona communities and calculate distances from military bases.",
+        "NSLocationAlwaysUsageDescription": "NewBuild Connect uses your location to show nearby Arizona communities.",
+        "NSCameraUsageDescription": "NewBuild Connect lets you photograph communities during tours to share with family.",
+        "NSPhotoLibraryUsageDescription": "NewBuild Connect lets you save community photos to your library.",
+        "NSPhotoLibraryAddUsageDescription": "NewBuild Connect saves community photos to your library.",
+        "NSContactsUsageDescription": "NewBuild Connect uses contacts to help you share community details with co-buyers or family.",
+        "NSMicrophoneUsageDescription": "NewBuild Connect may use your microphone for voice notes during community tours.",
+        "UIRequiresFullScreen": true,
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": ["CA92.1"]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": ["C617.1"]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategorySystemBootTime",
+            "NSPrivacyAccessedAPITypeReasons": ["35F9.1"]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+            "NSPrivacyAccessedAPITypeReasons": ["E174.1"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.newbuildconnect.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#003366",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "./plugins/withCxxStandard"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "edc41147-915b-4361-9f63-d30c37bed22c"
+      },
+      "router": {}
+    }
+  }
+}

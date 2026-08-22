@@ -393,6 +393,34 @@ export default function ProfileScreen() {
     ]);
   };
 
+  const [isDeletingAccount, setIsDeletingAccount] = useState(false);
+
+  const handleDeleteAccount = () => {
+    Alert.alert(
+      'Delete Account',
+      'This permanently deletes your account and all of your data — profile, saved communities, advisor conversations, and journey progress. This cannot be undone.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Delete Account',
+          style: 'destructive',
+          onPress: async () => {
+            setIsDeletingAccount(true);
+            const { error } = await supabase.functions.invoke('delete-account', { method: 'POST' });
+            setIsDeletingAccount(false);
+            if (error) {
+              Alert.alert('Something went wrong', 'We couldn’t delete your account. Please try again, or contact us if this keeps happening.');
+              return;
+            }
+            await supabase.auth.signOut().catch(() => {});
+            reset();
+            router.replace('/(auth)/welcome');
+          },
+        },
+      ]
+    );
+  };
+
   const hasAccount = !!buyer?.id && buyer.id !== 'local';
   const handleCreateAccount = () => router.push('/(auth)/create-account' as any);
 
@@ -566,6 +594,13 @@ export default function ProfileScreen() {
             />
           )}
           <SettingRow icon="log-out-outline" label="Sign Out" onPress={handleSignOut} />
+          {hasAccount && (
+            <SettingRow
+              icon="trash-outline"
+              label={isDeletingAccount ? 'Deleting…' : 'Delete Account'}
+              onPress={isDeletingAccount ? undefined : handleDeleteAccount}
+            />
+          )}
         </Card>
       </ScrollView>
 

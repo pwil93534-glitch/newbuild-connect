@@ -7,6 +7,7 @@ import {
   KeyboardAvoidingView,
   Platform,
   ScrollView,
+  Alert,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -18,7 +19,7 @@ import { supabase } from '../../src/services/supabase';
 
 export default function CreateAccountScreen() {
   const router = useRouter();
-  const { buyer, updateBuyer } = useBuyerStore();
+  const { buyer, updateBuyer, setOnboarded } = useBuyerStore();
   const [email, setEmail] = useState(buyer?.email ?? '');
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
@@ -36,8 +37,9 @@ export default function CreateAccountScreen() {
 
     setLoading(true);
 
+    const trimmedEmail = email.trim().toLowerCase();
     const { data, error: signUpError } = await supabase.auth.signUp({
-      email: email.trim().toLowerCase(),
+      email: trimmedEmail,
       password,
     });
 
@@ -51,25 +53,54 @@ export default function CreateAccountScreen() {
       return;
     }
 
-    if (data.user) {
-      updateBuyer({ id: data.user.id, email: email.trim().toLowerCase() });
-
-      await supabase.from('buyers').upsert({
-        id: data.user.id,
-        email: email.trim().toLowerCase(),
-        name: buyer?.name ?? null,
-        phone: buyer?.phone ?? null,
-        buyer_type: buyer?.buyer_type ?? null,
-        military_base: buyer?.military_base ?? null,
-        budget_min: buyer?.budget_min ?? null,
-        budget_max: buyer?.budget_max ?? null,
-        timeline: buyer?.timeline ?? null,
-        loan_type: buyer?.loan_type ?? null,
-        is_onboarded: true,
-      });
+    if (!data.user) {
+      setLoading(false);
+      setError('Something went wrong creating your account. Please try again.');
+      return;
     }
 
+    if (!data.session) {
+      // Email confirmation is required before this account has a real
+      // session. Do NOT treat the user as signed in — updateBuyer()/the
+      // buyers upsert below would silently fail their RLS check with no
+      // session to back them, leaving the app looking "logged in" while
+      // every authenticated call (saved communities, AI advisor history,
+      // account deletion, etc.) quietly fails with 401s.
+      setLoading(false);
+      Alert.alert(
+        'Confirm Your Email',
+        `We sent a confirmation link to ${trimmedEmail}. Please confirm it, then sign in.`,
+        [{ text: 'OK', onPress: () => router.replace('/(auth)/sign-in') }]
+      );
+      return;
+    }
+
+    updateBuyer({ id: data.user.id, email: trimmedEmail });
+    setOnboarded(true);
+
+    const { error: upsertError } = await supabase.from('buyers').upsert({
+      id: data.user.id,
+      email: trimmedEmail,
+      name: buyer?.name ?? null,
+      phone: buyer?.phone ?? null,
+      buyer_type: buyer?.buyer_type ?? null,
+      military_base: buyer?.military_base ?? null,
+      budget_min: buyer?.budget_min ?? null,
+      budget_max: buyer?.budget_max ?? null,
+      timeline: buyer?.timeline ?? null,
+      loan_type: buyer?.loan_type ?? null,
+      is_onboarded: true,
+    });
+
     setLoading(false);
+
+    if (upsertError) {
+      // The account and session are real at this point, so let them into
+      // the app rather than blocking on a profile-sync hiccup — they can
+      // retry from Profile > Edit if any fields didn't save.
+      console.warn('Failed to sync buyer profile after signup:', upsertError.message);
+    }
+
     proceedToApp();
   };
 

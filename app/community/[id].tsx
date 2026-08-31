@@ -12,7 +12,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors, FontSize, FontWeight, Spacing, BorderRadius, Shadows } from '../../src/design-system';
-import { Badge, Card, Button } from '../../src/components';
+import { Badge, Card, Button, SignalCheckCard } from '../../src/components';
 import { COMMUNITIES } from '../../src/constants/communities';
 import { INCENTIVES } from '../../src/constants/incentives';
 import { AGENT_PERSONA } from '../../src/constants/agent';
@@ -289,6 +289,8 @@ export default function CommunityDetailScreen() {
               <Text style={styles.mapPlaceholderText}>View on Map</Text>
               <Text style={styles.mapPlaceholderSub}>Open Communities Map to see this location</Text>
             </TouchableOpacity>
+
+            <SignalCheckCard contextLabel={community.name} />
           </View>
         )}
       </ScrollView>

@@ -109,3 +109,14 @@ export interface JourneyTaskDefinition {
   how: string;
   agentNote: string;
 }
+
+export type SignalQuality = 'excellent' | 'good' | 'fair' | 'poor' | 'none';
+export type ConnectionType = 'wifi' | 'cellular' | 'none' | 'unknown';
+
+export interface SignalCheckResult {
+  quality: SignalQuality;
+  connectionType: ConnectionType;
+  isInternetReachable: boolean;
+  latencyMs: number | null;
+  checkedAt: string;
+}

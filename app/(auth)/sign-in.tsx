@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, KeyboardAvoidingView, Platform, Alert, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, KeyboardAvoidingView, Platform, Alert, ScrollView, Linking } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -8,7 +8,7 @@ import { Colors, FontSize, FontWeight, Spacing, BorderRadius } from '../../src/d
 import { Button, TextInput } from '../../src/components';
 import { useBuyerStore } from '../../src/stores/buyer';
 import { supabase } from '../../src/services/supabase';
-import { BRAND_LOGO } from '../../src/constants/agent';
+import { BRAND_LOGO, PRIVACY_POLICY_URL } from '../../src/constants/agent';
 
 export default function SignInScreen() {
   const router = useRouter();
@@ -173,7 +173,9 @@ export default function SignInScreen() {
               By signing in you agree to our{' '}
               <Text style={styles.footerLink}>Terms of Service</Text>
               {' '}and{' '}
-              <Text style={styles.footerLink}>Privacy Policy</Text>
+              <Text style={styles.footerLink} onPress={() => Linking.openURL(PRIVACY_POLICY_URL)}>
+                Privacy Policy
+              </Text>
             </Text>
           </View>
         </ScrollView>

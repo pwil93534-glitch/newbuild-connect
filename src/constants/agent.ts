@@ -4,6 +4,8 @@ export const AGENT_PHOTO = require('../../assets/agent-photo.png');
 export const BRAND_LOGO = require('../../assets/phillip-williams-logo.png');
 export const BROKERED_BY_EXP_LOGO = require('../../assets/brokered-by-exp-logo.png');
 
+export const PRIVACY_POLICY_URL = 'https://claude.ai/code/artifact/486b71d7-c11c-4122-ab48-8c5fdc65d6a8';
+
 export const AGENT_PERSONA = {
   name: 'Phillip Williams',
   title: 'New Construction Real Estate Strategist',

@@ -1,0 +1,7 @@
+{
+  "_note": "Relative paths only until the owner approves a domain. Edit a value to retarget a printed QR code.",
+  "reader": "/reader/?src=qr-reader",
+  "listing": "/reader/?src=qr-listing",
+  "buyer": "/reader/?src=qr-buyer",
+  "relocation": "/reader/?src=qr-relocation"
+}

@@ -8,3 +8,9 @@
 | 5 | 2026-10-04 | Separate, unticked consent boxes: copy fulfilment (required) vs. email updates (optional) vs. text (optional) | Rule 10 |
 | 6 | 2026-10-04 | No cover image, photo, bio, price, ISBN, stats or testimonials on pages | Rule 1; assets not supplied |
 | 7 | 2026-10-04 | Site copy says "Foundation Edition" only as an edition name, no "incomplete"/"first draft" language | Rule 9 |
+| 4a | 2026-10-05 | Supersedes #4: form is live-in-code but server returns 503 until `FORM_ENABLED=true` + CRM credentials exist | Same safety, testable end to end |
+| 8 | 2026-10-05 | Recommend Vercel (static + functions); core is host-neutral | Matches available tooling; **needs owner approval, none deployed** |
+| 9 | 2026-10-05 | Approvals tracked in `OWNER_APPROVALS.json`; Claude never flips them | Rule 3 made machine-checkable |
+| 10 | 2026-10-05 | Marketing eligibility = explicit `consent-*` tags only; interests are segmentation; unsubscribe sets DND + suppression tag | Rule 10 |
+| 11 | 2026-10-05 | Upsert does not touch DND on non-consent | Avoids silently suppressing someone who opted in earlier |
+| 12 | 2026-10-05 | Resources are printable HTML (print/save-as-PDF), generic process checklists, no statistics | Rule 1/6; PDFs can follow after content approval |

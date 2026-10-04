@@ -38,3 +38,6 @@ footer.site a{display:inline-block;padding:.6rem 0}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 .brand{display:inline-flex;align-items:center;min-height:44px}
 footer.site a{min-height:44px;display:inline-flex;align-items:center;padding:0}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.todo{list-style:none;padding:0}.todo li{padding:.4rem 0 .4rem 2rem;position:relative}.todo li:before{content:"";position:absolute;left:0;top:.75rem;width:1rem;height:1rem;border:2px solid var(--navy)}
+@media print{header.site,footer.site,.btn,.skip,nav{display:none!important}body{background:#fff;font-size:12pt}}

@@ -9,6 +9,8 @@
 | Publish any content | No |
 | Use eXp / personal photo / logo assets publicly | No |
 
+## Approval flags live in `OWNER_APPROVALS.json` (all false).
+
 ## Risks
 | Risk | Impact | Mitigation |
 |---|---|---|

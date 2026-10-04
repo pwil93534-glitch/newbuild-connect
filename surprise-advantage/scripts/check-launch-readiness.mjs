@@ -7,6 +7,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'site');
 const hits = [];
+const approvals = JSON.parse(readFileSync(join(root, '..', 'OWNER_APPROVALS.json'), 'utf8'));
+for (const [k, v] of Object.entries(approvals)) if (!k.startsWith('_') && v !== true) hits.push(`owner approval missing: ${k}`);
 const walk = (d) => {
   for (const f of readdirSync(d)) {
     const p = join(d, f);
@@ -19,7 +21,7 @@ const walk = (d) => {
   }
 };
 walk(root);
-for (const req of ['index.html','book/index.html','about/index.html','request-copy/index.html','privacy/index.html']) {
+for (const req of ['index.html','book/index.html','about/index.html','request-copy/index.html','privacy/index.html','reader/index.html','market-update/index.html','unsubscribe/index.html','reader/seller-checklist/index.html','reader/buyer-questions/index.html','reader/relocation-checklist/index.html','reader/investor-worksheet/index.html']) {
   try { statSync(join(root, req)); } catch { hits.push(`missing required page: ${req}`); }
 }
 if (hits.length) {

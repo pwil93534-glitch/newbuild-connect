@@ -1,0 +1,10 @@
+{
+  "name": "surprise-advantage",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/secret-scan.mjs && node scripts/check-launch-readiness.mjs"
+  }
+}

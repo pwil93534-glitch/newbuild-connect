@@ -5,12 +5,11 @@
 <link rel="stylesheet" href="/css/styles.css"></head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap"><a class="brand" href="/">The Surprise <span>Advantage</span></a>
-<nav aria-label="Main"><ul><li><a href="/">Home</a></li><li><a href="/book/">The Book</a></li><li><a href="/about/">Meet Phillip</a></li><li><a href="/request-copy/" aria-current="page">Request a Copy</a></li></ul></nav></div></header>
+<nav aria-label="Main"><ul><li><a href="/">Home</a></li><li><a href="/book/">The Book</a></li><li><a href="/about/">Meet Phillip</a></li><li><a href="/reader/">Reader Resources</a></li><li><a href="/request-copy/" aria-current="page">Request a Copy</a></li></ul></nav></div></header>
 <main id="main">
 <section><div class="wrap"><h1>Request a complimentary copy</h1>
 <p>Tell us where to send it. Requesting a copy does not sign you up for anything else.</p>
-<p class="status" id="form-offline" data-pending="form-endpoint">PENDING-OWNER: requests are not being accepted yet. The form activates only after Phillip approves the fulfilment policy and the secure server-side endpoint is deployed (Phase 2).</p>
-<form id="copy-form" novalidate data-endpoint="" aria-describedby="form-offline">
+<form id="copy-form" novalidate class="api-form" data-endpoint="/api/request-copy"><div class="hp" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 <div><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required><div class="error" id="name-err" hidden></div></div>
 <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><div class="error" id="email-err" hidden></div></div>
 <div><label for="addr">Mailing address</label><textarea id="addr" name="address" rows="3" autocomplete="street-address" required></textarea><div class="error" id="addr-err" hidden></div></div>
@@ -28,7 +27,7 @@
 <div><button class="btn" type="submit" id="submit-btn">Request my copy</button></div>
 <div role="status" aria-live="polite" id="form-msg"></div></form></div></section></main>
 <footer class="site"><div class="wrap">
-<ul><li><a href="/privacy/">Privacy &amp; Consent</a></li><li><a href="/request-copy/">Request a Copy</a></li><li><a href="/about/">Meet Phillip</a></li></ul>
+<ul><li><a href="/privacy/">Privacy &amp; Consent</a></li><li><a href="/request-copy/">Request a Copy</a></li><li><a href="/about/">Meet Phillip</a></li><li><a href="/market-update/">Market Updates</a></li><li><a href="/unsubscribe/">Unsubscribe</a></li></ul>
 <p>Phillip Williams Real Estate Group | eXp Realty. Serving Surprise and the West Valley, Arizona.</p>
 <p data-pending="disclosures">PENDING-OWNER: required eXp Realty and Arizona real estate disclosures, license number and Equal Housing statement — to be supplied and approved by Phillip / his broker.</p>
 </div></footer>

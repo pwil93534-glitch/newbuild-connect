@@ -17,9 +17,9 @@
 - [ ] Owner written approval of copy
 
 ## Phase 2
-- [ ] Forms validate, show errors, capture explicit unticked consent, source, timestamp
-- [ ] Server-side HighLevel call; no key in client bundle or git history (secret scan clean)
-- [ ] Interest ≠ marketing consent; suppression honored; unsubscribe works
+- [x] Forms validate, show errors, capture explicit unticked consent, source, timestamp — *unit + browser tested (mock API)*
+- [ ] Server-side HighLevel call verified against a live sandbox contact — *code + secret scan clean; live verification pending credentials*
+- [ ] Interest ≠ marketing consent (tested in code); suppression honored; unsubscribe works — *live confirmation pending*
 - [ ] All 5 resources downloadable and content-approved
 
 ## Phase 3 gate

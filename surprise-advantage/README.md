@@ -23,4 +23,6 @@ node ../scripts/check-launch-readiness.mjs
 
 ## Status
 See `docs/IMPLEMENTATION_LOG.md` (what exists) and `docs/ACCEPTANCE_CRITERIA.md` (what is actually *done*). A file existing is not completion.
-**Not deployed. Not public. No forms submit anywhere. No emails/SMS sent.**
+**Not deployed. Not public. The API returns 503 until the owner enables it. No emails/SMS sent.**
+
+`npm test` · `npm run check` · deploy steps: `docs/DEPLOY.md` · approvals: `OWNER_APPROVALS.json`

@@ -1,0 +1,11 @@
+{
+  "_note": "Phillip flips these to true ONLY after personally reviewing. The launch gate fails while any is false. Claude must never set these.",
+  "copy_and_compliance_approved": false,
+  "disclosures_approved": false,
+  "privacy_notice_approved": false,
+  "resource_content_approved": false,
+  "amazon_kindle_url_verified": false,
+  "form_fulfilment_policy_approved": false,
+  "spend_approved": false,
+  "public_deploy_approved": false
+}

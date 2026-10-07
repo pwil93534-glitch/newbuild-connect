@@ -14,3 +14,5 @@
 | 10 | 2026-10-05 | Marketing eligibility = explicit `consent-*` tags only; interests are segmentation; unsubscribe sets DND + suppression tag | Rule 10 |
 | 11 | 2026-10-05 | Upsert does not touch DND on non-consent | Avoids silently suppressing someone who opted in earlier |
 | 12 | 2026-10-05 | Resources are printable HTML (print/save-as-PDF), generic process checklists, no statistics | Rule 1/6; PDFs can follow after content approval |
+| 13 | 2026-10-07 | GHL campaign designed as drafts only; legacy contacts excluded until Phillip decides (D3) | Rule 3 and 10; legacy consent basis unknown |
+| 14 | 2026-10-07 | Monthly briefing sent manually, not automated | Rule 6: market content needs verified sources and dates |

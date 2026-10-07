@@ -17,3 +17,7 @@
 
 ## 2026-10-07 — Preview deploy attempt
 - Requested: Vercel preview. NOT DONE: Vercel connector disconnected, no CLI/token, api.vercel.com unreachable from the sandbox. Added a no-CLI dashboard route to docs/DEPLOY.md. No deployment exists.
+
+## 2026-10-07 — GHL campaign planning
+- Read-only audit of the connected GHL location (workflows, tags, templates, email campaigns). No writes.
+- Wrote `GHL_CAMPAIGN_PLAN.md` and `GHL_EMAIL_DRAFTS.md`. Not built, not sent. HighLevel's public API cannot create workflows, so they are a UI build sheet.

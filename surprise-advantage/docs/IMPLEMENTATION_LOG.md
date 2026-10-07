@@ -21,3 +21,6 @@
 ## 2026-10-07 — GHL campaign planning
 - Read-only audit of the connected GHL location (workflows, tags, templates, email campaigns). No writes.
 - Wrote `GHL_CAMPAIGN_PLAN.md` and `GHL_EMAIL_DRAFTS.md`. Not built, not sent. HighLevel's public API cannot create workflows, so they are a UI build sheet.
+
+## 2026-10-07 — GHL build (approved by Phillip)
+- Created 21 tags, 1 template folder, 6 DRAFT plain-text templates via API. Pipeline not creatable via API — spec in GHL_BUILD_STATUS.md. No contacts touched, nothing sent.

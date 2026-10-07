@@ -14,3 +14,6 @@
 - Added /reader + 4 printable resources, /market-update, /unsubscribe, `vercel.json` security headers, QR redirect map, `docs/DEPLOY.md`.
 - Browser checks (Playwright, mocked API): no overflow at 375/768/1280 on 9 pages; empty submit shows 4 errors and sends nothing; valid submit sends expected payload and shows server message; consent required on market-update; 503 message surfaced.
 - NOT verified: live HighLevel behaviour (no credentials), real-device mobile, screen reader, contrast tool, Vercel deploy.
+
+## 2026-10-07 — Preview deploy attempt
+- Requested: Vercel preview. NOT DONE: Vercel connector disconnected, no CLI/token, api.vercel.com unreachable from the sandbox. Added a no-CLI dashboard route to docs/DEPLOY.md. No deployment exists.

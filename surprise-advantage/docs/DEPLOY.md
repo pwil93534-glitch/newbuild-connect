@@ -5,6 +5,17 @@ The code is **deploy-ready**; the *launch* is gated on Phillip. Deploying public
 ## Recommended target (pending approval — Decision #8)
 Vercel: static `site/` + serverless `api/*.mjs`, configured by `vercel.json` (CSP, HSTS, nosniff, clean URLs, `/q/:slug` QR redirects). Any host that can run Node 18+ functions works; `lib/core.mjs` is platform-neutral.
 
+## Fastest route to a preview (no CLI or token needed)
+Done by Phillip in the Vercel dashboard — this creates a **preview only**, nothing public:
+1. vercel.com → Add New → Project → import GitHub repo `pwil93534-glitch/newbuild-connect`.
+2. **Root Directory: `surprise-advantage`**. Framework preset: Other. Leave build/output settings alone (`vercel.json` sets `outputDirectory: site`).
+3. Production Branch: leave as `main` (the Expo app lives there; do not promote this project from `main`). Vercel will build branch `surprise-advantage-launch` as a Preview and give you a URL.
+4. Leave `FORM_ENABLED` unset. With it unset every form returns "Requests are not being accepted yet" and nothing reaches HighLevel.
+5. Keep Vercel's Deployment Protection on so the preview is not public.
+6. Send the preview URL back and I will run the browser checks against it (headers, CSP, pages, `/q/reader`, 503 behaviour).
+
+Note: `main` contains the Expo app, so a Vercel *production* deployment from this repo would serve nothing useful; only use previews until the site moves to its own repo/domain (Decision #1).
+
 ## Steps for Phillip (or Claude, once approved)
 1. Supply the missing items (docs/OPEN_QUESTIONS.md) and replace every `PENDING-OWNER` block with approved text/assets.
 2. Review pages; set each flag in `OWNER_APPROVALS.json` to `true` yourself.

@@ -19,3 +19,8 @@
 - Dropbox: only unrelated Knolly listing-toolkit PDFs/docs matched "Surprise Advantage".
 - Searches were keyword-based; files with other names or in other places (Gmail attachments, local disk, a design tool) were not checked.
 - **Open question raised:** the plan describes a ~7.8k-word current draft heading to ~28k words. Is that draft the "Foundation Edition", or is the expanded book the one being published now? Rule 9 (don't imply the Foundation Edition is incomplete) depends on the answer.
+
+## Update 2026-10-07 (from Phillip + Lovable audit)
+- Phillip states the book is live on Amazon (Kindle and paperback). **URLs not yet supplied**; my web search found no listing and this environment cannot reach Amazon. Rule 1: no URL is used until Phillip pastes it and confirms it is the live product page.
+- Lovable Hub contains: cover image (`src/assets/surprise-advantage-book.jpg` — approval to be confirmed), 5 PDF resources, book title/subtitle/"Volume I · Foundation Edition" wording. **Answers earlier question: Foundation Edition = Volume I.**
+- Still missing in the Hub: author portrait, contact details, disclosures/license, Amazon URLs.

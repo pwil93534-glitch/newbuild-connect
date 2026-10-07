@@ -24,3 +24,6 @@
 
 ## 2026-10-07 — GHL build (approved by Phillip)
 - Created 21 tags, 1 template folder, 6 DRAFT plain-text templates via API. Pipeline not creatable via API — spec in GHL_BUILD_STATUS.md. No contacts touched, nothing sent.
+
+## 2026-10-07 — Lovable Hub audit
+- Located and read (read-only) the Lovable project; wrote LOVABLE_HUB_GAP_ANALYSIS.md; marked `site/` superseded. Searched web for Amazon listing: none found; Amazon blocked from sandbox. No Lovable edits made, no credits spent.

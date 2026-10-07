@@ -1,5 +1,7 @@
 # The Surprise Advantage — 90-Day Authority Launch
 
+> **2026-10-07: the website is the existing Lovable project "Surprise Strategy Hub". `site/` here is SUPERSEDED (do not deploy). See `docs/LOVABLE_HUB_GAP_ANALYSIS.md`.**
+
 Technical infrastructure for the book-led authority campaign of Phillip Williams Real Estate Group | eXp Realty (Surprise & the West Valley, AZ). Campaign start: 2026-09-26.
 
 **Positioning:** Read the Book. Understand the Market. Make Your Move Strategically.

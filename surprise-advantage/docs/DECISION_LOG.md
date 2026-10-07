@@ -16,3 +16,4 @@
 | 12 | 2026-10-05 | Resources are printable HTML (print/save-as-PDF), generic process checklists, no statistics | Rule 1/6; PDFs can follow after content approval |
 | 13 | 2026-10-07 | GHL campaign designed as drafts only; legacy contacts excluded until Phillip decides (D3) | Rule 3 and 10; legacy consent basis unknown |
 | 14 | 2026-10-07 | Monthly briefing sent manually, not automated | Rule 6: market content needs verified sources and dates |
+| 15 | 2026-10-07 | Website = existing Lovable "Surprise Strategy Hub"; `site/` superseded; `lib/`, tests, GHL tags carry over | Rule: do not duplicate an existing website. Phillip confirmed the book is on Amazon and the Hub exists. |

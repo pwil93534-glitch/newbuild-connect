@@ -32,3 +32,7 @@
 - Reviewed Reader Guide chat; decision: ship hardened and OFF, enable in week 2 (docs/CHAT_ASSISTANT_REVIEW.md).
 - Uploaded portrait + eXp logo to Lovable; sent the approved change request (forms, consent, address, unsubscribe, Amazon links, license, portrait, logo). Not published. Status of the Lovable build recorded below once finished.
 - SECURITY: Phillip pasted a HighLevel private-integration token into chat. Claude did not write it to any file, commit, GHL setting, or Lovable message, and did not use it (the existing GHL connector already gives access). Because it now sits in the conversation transcript, **treat it as exposed: rotate it in HighLevel, then enter the new value yourself in Lovable's secret form.** `npm run check -- --history` secret scan re-run after this session.
+
+## 2026-10-08 — Lovable forms build reviewed
+- Lovable agent finished (commit 3ae534f, 6.8 credits). Reviewed code + diff: matches the change request; nothing published; protected pages untouched. Details and live test plan: docs/HUB_FORMS_TEST_PLAN.md.
+- Open before enabling forms: real privacy policy, broker disclosures, new HighLevel token entered by Phillip in Lovable secrets, live sandbox test.

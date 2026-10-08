@@ -23,7 +23,10 @@ Home, /book (cover image, "Volume I · Foundation Edition", subtitle "The Inside
 | 11 | PDFs in `public/downloads` — **content not reviewed** by me | 1, 6 | Owner reviews for claims before launch |
 | 12 | No analytics (dashboard needs visits/downloads) | Phase 5 | Owner decision; privacy notice must match |
 
-## Proposed Lovable change request — NOT SENT
+## Status update 2026-10-08
+Gaps 1, 2, 3, 4, 7 (portrait only), 8, 9 were addressed by the approved change request (commit 3ae534f) — see HUB_FORMS_TEST_PLAN.md. Still open: 5 (privacy + disclosures), 6, 7 (contact details), 10, 11, 12.
+
+## Original change request (SENT 2026-10-08, approved by Phillip)
 Sending it edits the live project and consumes Lovable credits, so it waits for Phillip's OK.
 > "Wire the three forms (contact, complimentary copy, market-brief signup) to server routes under src/routes/api/ that forward to HighLevel contacts/upsert using HIGHLEVEL_API_KEY and HIGHLEVEL_LOCATION_ID stored as server-only secrets. Add: unticked consent checkboxes (required: fulfilment on the copy form; optional: email, SMS); a mailing-address field on the copy form; a hidden honeypot field; capture ?src= and submission date; server returns 503 unless FORM_ENABLED=true and the request Origin matches FORM_ALLOWED_ORIGIN. Tag contacts exactly: book-reader, complimentary-copy-request, market-update-subscriber, buyer-interest/seller-interest/relocation-interest/investor-interest, consent-email, consent-sms, source:<src>, submitted:<YYYY-MM-DD>. Interest selections must never imply marketing consent. Add /unsubscribe that sets DND and tags unsubscribe-request + suppressed. Do not publish."
 The reference implementation and tests are `surprise-advantage/lib/core.mjs` and `test/core.test.mjs`.

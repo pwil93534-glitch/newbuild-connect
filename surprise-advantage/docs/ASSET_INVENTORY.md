@@ -24,3 +24,11 @@
 - Phillip states the book is live on Amazon (Kindle and paperback). **URLs not yet supplied**; my web search found no listing and this environment cannot reach Amazon. Rule 1: no URL is used until Phillip pastes it and confirms it is the live product page.
 - Lovable Hub contains: cover image (`src/assets/surprise-advantage-book.jpg` — approval to be confirmed), 5 PDF resources, book title/subtitle/"Volume I · Foundation Edition" wording. **Answers earlier question: Foundation Edition = Volume I.**
 - Still missing in the Hub: author portrait, contact details, disclosures/license, Amazon URLs.
+
+## Update 2026-10-08 (supplied by Phillip in chat)
+- **Amazon Kindle:** https://www.amazon.com/Surprise-Advantage-Insiders-Selling-Investing-ebook/dp/B0GZX9H323 — supplied by owner as live. Not independently checked (Amazon is blocked from this environment).
+- **Amazon paperback:** https://www.amazon.com/dp/B0HL875GDP — supplied by owner as live. Not independently checked. Phillip: please open both and confirm they are the correct product pages, then set `amazon_kindle_url_verified` in `OWNER_APPROVALS.json` yourself.
+- **Arizona license:** SA657637000 (as given; confirm the exact required wording with your broker).
+- **Author portrait** (navy blazer/black turtleneck) and **eXp Realty logo** supplied; uploaded to the Lovable project. eXp brand-use rules still to be confirmed with the brokerage.
+- **Cover:** Phillip confirms the cover image in the Hub is the real cover. Lovable history shows he replaced it with the full KDP wrap on 2026-10-07.
+- **Credentials:** a HighLevel token was pasted into chat. It was **not** stored anywhere by Claude. See SECURITY note in IMPLEMENTATION_LOG.

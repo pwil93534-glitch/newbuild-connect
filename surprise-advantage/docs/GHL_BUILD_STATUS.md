@@ -39,3 +39,12 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 3. Confirm T1 is a transactional confirmation (no marketing content) or require `consent-email` tag.
 4. Phillip approval (and broker review of eXp/Arizona wording).
 5. Test with Phillip's own email only.
+
+## SA-02 Shipped — built in GHL UI (2026-10-09), DRAFT / NOT PUBLISHED
+- Trigger: Contact Tag added = `sa:copy-shipped` (Phillip adds this tag by hand after mailing the book)
+- Action 1: Find opportunity — most recently created, Pipeline is "Surprise Advantage Readers"
+- Action 2 (Opportunity Found branch): Update opportunity — Pipeline = Surprise Advantage Readers, Stage = Copy Shipped
+- Action 3: Send Email — template "SA DRAFT - T2" (subject: "Your copy of The Surprise Advantage is on its way"); From is a PLACEHOLDER (pwil93534@gmail.com); click tracking, UTM and auto-tagging OFF
+- Not built yet: consent-sms text (plan section 5) — needs A2P 10DLC decision and broker review
+- Note: a tag-triggered workflow has no opportunity in context, so Update opportunity needs a preceding Find opportunity (otherwise it does nothing)
+- Status: Draft. Same publish blockers as SA-01 (real sender domain, fill [BRACKETS], unsubscribe/address, Phillip approval, test with own email).

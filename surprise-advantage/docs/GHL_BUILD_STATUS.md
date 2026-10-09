@@ -25,3 +25,17 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Stages (position → id): 0 Requested copy `6f62afc0-a774-44a5-8c76-8f2a07a5ec6e` · 1 Copy Shipped `a8affa44-60f4-4e36-a103-f5a51246f7bc` · 2 Copy Delivered `ab696a8c-2e80-4646-94ef-a6bbb5865f8a` · 3 Engaged `907c8d35-8c5a-4b40-a249-77e8167336c8` · 4 Conversation Requested `6e060425-67d8-4a04-8f7d-1c029d4732ee` · 5 Conversation Held `35a44e53-c938-46a9-b596-e4de18e2ef56` · 6 Long-Term `3bd0af29-21e0-4ec2-b079-0fea5f0f4a6b`
 - To undo: rename back and restore stages Purchase & Sale, Loan Application, In Underwriting, Title & Deed Review, Loan Approval, CLEAR TO CLOSE.
 - Next: workflows SA-01…07 (GHL screens); then a small Lovable change so copy requests create an opportunity in stage "Requested copy" (needs the ids above; uses credits; needs Phillip's OK).
+
+## SA-01 Copy request intake — built in GHL UI (2026-10-09), DRAFT / NOT PUBLISHED
+- Trigger: Contact Tag added = `complimentary-copy-request`
+- Action 1: Create Opportunity — pipeline "Surprise Advantage Readers", stage "Requested copy", name `{{contact.name}} - Book copy request`, duplicates disabled
+- Action 2: Add Task — "Ship book to {{contact.name}}", due in 2 days at 9:00 AM (America/Phoenix), skip weekends ON, assigned to Phillip Williams
+- Action 3: Send Email — template "SA DRAFT - T1" (subject: "We received your request for The Surprise Advantage"); From is a PLACEHOLDER (pwil93534@gmail.com)
+- Status: Draft. Must NOT be published until the items below are done.
+
+### Blockers before SA-01 can be published
+1. Replace the placeholder From with an address on a domain Phillip owns, authenticated in GHL (SPF/DKIM/DMARC). Gmail as sender risks DMARC rejection/spam.
+2. Fill all [BRACKETS] in T1; add unsubscribe link and physical mailing address.
+3. Confirm T1 is a transactional confirmation (no marketing content) or require `consent-email` tag.
+4. Phillip approval (and broker review of eXp/Arizona wording).
+5. Test with Phillip's own email only.

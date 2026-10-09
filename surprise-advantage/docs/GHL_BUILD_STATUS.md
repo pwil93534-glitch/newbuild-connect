@@ -18,3 +18,10 @@ Keep "Lost" out; use stage 7 so no one is marked as a failure. The existing "RE 
 
 ## Before any template is used
 Set a verified sender, add GHL's unsubscribe link + your mailing address, replace every `[BRACKET]`, get your approval and broker review, then remove "DRAFT" from the name.
+
+## Update 2026-10-09 — pipeline created (by Phillip in the GHL screens, verified by Claude via API)
+GHL has no "Create pipeline" button for this account (white-label), so an unused, empty template pipeline ("RE Snapshot: Buyer Leads (Purchase Phase)", 0 opportunities) was **repurposed**: renamed and its stages replaced.
+- Pipeline: **Surprise Advantage Readers**, id `MjtJwvdKvzWu3F6xKOUn`
+- Stages (position → id): 0 Requested copy `6f62afc0-a774-44a5-8c76-8f2a07a5ec6e` · 1 Copy Shipped `a8affa44-60f4-4e36-a103-f5a51246f7bc` · 2 Copy Delivered `ab696a8c-2e80-4646-94ef-a6bbb5865f8a` · 3 Engaged `907c8d35-8c5a-4b40-a249-77e8167336c8` · 4 Conversation Requested `6e060425-67d8-4a04-8f7d-1c029d4732ee` · 5 Conversation Held `35a44e53-c938-46a9-b596-e4de18e2ef56` · 6 Long-Term `3bd0af29-21e0-4ec2-b079-0fea5f0f4a6b`
+- To undo: rename back and restore stages Purchase & Sale, Loan Application, In Underwriting, Title & Deed Review, Loan Approval, CLEAR TO CLOSE.
+- Next: workflows SA-01…07 (GHL screens); then a small Lovable change so copy requests create an opportunity in stage "Requested copy" (needs the ids above; uses credits; needs Phillip's OK).

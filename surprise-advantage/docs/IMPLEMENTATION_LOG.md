@@ -47,3 +47,6 @@
 - Side effect: GHL now reports `campaignsEnabled: false` (it keeps it false while `campaignsReadOnly` is true; a second attempt to set it true did not stick). Legacy "Campaigns" was already read-only. To restore: GHL → Settings → My Staff → Phillip → Roles & Permissions → turn off "Campaigns Read Only", then re-enable Campaigns. "My Staff" is not visible in Phillip's white-labeled ("SKILLS") sidebar; the account provider may need to do this.
 - No inbound webhook is needed for the current integration (the Hub calls the GHL API directly).
 - Pending: Phillip to confirm Automation → Workflows → Create Workflow is now enabled after refresh.
+
+## 2026-10-09 — GHL pipeline
+- Phillip repurposed the empty "Buyer Leads (Purchase Phase)" template pipeline into "Surprise Advantage Readers" (7 stages) with step-by-step guidance; verified read-only via API. IDs in GHL_BUILD_STATUS.md.

@@ -48,3 +48,11 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Not built yet: consent-sms text (plan section 5) — needs A2P 10DLC decision and broker review
 - Note: a tag-triggered workflow has no opportunity in context, so Update opportunity needs a preceding Find opportunity (otherwise it does nothing)
 - Status: Draft. Same publish blockers as SA-01 (real sender domain, fill [BRACKETS], unsubscribe/address, Phillip approval, test with own email).
+
+## SA-03 Delivery check — built in GHL UI (2026-10-09), DRAFT / NOT PUBLISHED
+- Trigger: Contact Tag added = `sa:copy-shipped` (same tag as SA-02)
+- Action 1: Wait 7 days (time delay)
+- Action 2: Add Task — "Check delivery for {{contact.name}}", due immediately at 9:00 AM, skip weekends ON, assigned to Phillip Williams. Description reminds Phillip to email only if `consent-email` is present and to add `sa:copy-delivered` once delivery is confirmed.
+- No email is sent by this workflow (human follow-up by design).
+- Hand-off to SA-04: handled by SA-04's own trigger (`sa:copy-delivered` + consent-email check), not by an action here.
+- Status: Draft.

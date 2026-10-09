@@ -36,3 +36,7 @@
 ## 2026-10-08 — Lovable forms build reviewed
 - Lovable agent finished (commit 3ae534f, 6.8 credits). Reviewed code + diff: matches the change request; nothing published; protected pages untouched. Details and live test plan: docs/HUB_FORMS_TEST_PLAN.md.
 - Open before enabling forms: real privacy policy, broker disclosures, new HighLevel token entered by Phillip in Lovable secrets, live sandbox test.
+
+## 2026-10-09
+- Chat hardening request sent and completed (Lovable commit 46d0c83): see CHAT_ASSISTANT_REVIEW.md. Chat remains OFF.
+- GHL integration status written (GHL_INTEGRATION_STATUS.md). Verified read-only: no Surprise Advantage pipeline exists yet.

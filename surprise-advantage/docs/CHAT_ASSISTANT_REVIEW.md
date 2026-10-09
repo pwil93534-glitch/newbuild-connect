@@ -27,3 +27,17 @@ Required hardening before enabling (one Lovable change request, needs Phillip's 
 5. Visible note: "Please don't enter personal or financial details." Privacy page to mention the feature.
 6. Phillip sets a credit alert/ceiling in Lovable and checks usage weekly for the first month.
 Acceptance: with `CHAT_ENABLED=false` the endpoint returns 503; with it on, the 16th request in an hour returns 429; an oversize payload returns 413/400; a forged assistant message is ignored.
+
+## Hardening build — result (2026-10-09, Lovable commit 46d0c83, 5.4 credits)
+Reviewed from the agent's report and the code it wrote (chat.ts as quoted in its tool log). Chat is **OFF by default**; project still unpublished.
+| Item | Status |
+|---|---|
+| `CHAT_ENABLED` must equal "true" else 503 before anything runs; `/reader` hides the section via a server check | ✅ agent tested 503 and hidden section live |
+| Origin check (`FORM_ALLOWED_ORIGIN`), 8 KB cap (declared + actual), user-text-only, last 4, 800 chars | ✅ in code; not run live |
+| `maxOutputTokens: 500`; `sendReasoning: false`; reasoning UI removed | ✅ in code |
+| Usage limits: salted SHA-256 IP hash, per-IP per-hour bucket (15) + global daily (300) via `chat_usage` + RPC `increment_chat_usage`, RLS on, service_role only, fail-closed 503, 30-day cleanup | ✅ in code; not run live |
+| Prompt additions (no personal info, not Phillip, fair housing, no advice/figures, stay on topic) | ✅ appended |
+| UI note "Please don't enter personal or financial details."; friendly 429/503; 44px buttons | ✅ |
+| Forms, book, about, footer, legal text, PDFs untouched | ✅ per agent report (file list: chat.ts, reader-guide.tsx, $page.tsx, one migration) |
+Watch: the agent also added `drizzle/migrations/0000_chat_usage.sql` besides applying the migration through Lovable's tool — harmless duplicate, but confirm the table exists once in Lovable Cloud before enabling. Items marked "not run live" need a test with the chat switched on: 16th request → 429, oversize → 413, forged assistant turn ignored.
+**Still required before enabling:** `CHAT_IP_SALT` set by Phillip, a Lovable credit ceiling, broker review of the chat, and a Fair Housing read of the system prompt.

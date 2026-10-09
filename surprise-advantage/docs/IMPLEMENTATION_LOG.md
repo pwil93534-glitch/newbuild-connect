@@ -40,3 +40,10 @@
 ## 2026-10-09
 - Chat hardening request sent and completed (Lovable commit 46d0c83): see CHAT_ASSISTANT_REVIEW.md. Chat remains OFF.
 - GHL integration status written (GHL_INTEGRATION_STATUS.md). Verified read-only: no Surprise Advantage pipeline exists yet.
+
+## 2026-10-09 — GHL "read-only" fix (requested by Phillip)
+- Cause found read-only via API: Phillip's own GHL user (role admin) had `workflowsReadOnly: true` (also `campaignsReadOnly: true`, `adPublishingReadOnly: true`). Account-level permissions already allowed workflows/triggers. The user record had last been updated 2026-10-07.
+- Change made (approved by Phillip: "Fix it"): `update-user` on his own user, `workflowsReadOnly` true → false, all other permissions resent unchanged. Verified by re-reading the user.
+- Side effect: GHL now reports `campaignsEnabled: false` (it keeps it false while `campaignsReadOnly` is true; a second attempt to set it true did not stick). Legacy "Campaigns" was already read-only. To restore: GHL → Settings → My Staff → Phillip → Roles & Permissions → turn off "Campaigns Read Only", then re-enable Campaigns. "My Staff" is not visible in Phillip's white-labeled ("SKILLS") sidebar; the account provider may need to do this.
+- No inbound webhook is needed for the current integration (the Hub calls the GHL API directly).
+- Pending: Phillip to confirm Automation → Workflows → Create Workflow is now enabled after refresh.

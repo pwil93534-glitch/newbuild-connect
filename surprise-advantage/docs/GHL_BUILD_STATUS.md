@@ -56,3 +56,15 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - No email is sent by this workflow (human follow-up by design).
 - Hand-off to SA-04: handled by SA-04's own trigger (`sa:copy-delivered` + consent-email check), not by an action here.
 - Status: Draft.
+
+## SA-04 Reader series — built in GHL UI (2026-10-10), DRAFT / NOT PUBLISHED
+- Trigger: Contact Tag added = `sa:copy-delivered` (the trigger filter UI cannot test a second tag, so consent is checked in the next step)
+- Action 1: If/Else "Condition" — branch **Consented** = Tags includes `consent-email` AND Tags does not include `suppressed`; **None** branch left empty (no email without consent)
+- Consented branch: Email R1 ("One way to use the book") → Wait 7 days → Email R2 ("A short checklist you can use") → Wait 21 days → Email R3 ("What questions did the book leave you with?")
+- All three emails: template "SA DRAFT - R1/R2/R3", From = PLACEHOLDER (pwil93534@gmail.com), click tracking / UTM / auto-tagging OFF
+- Status: Draft.
+
+### SA-04 to-dos before publishing
+1. R2 template holds one block per interest (buy/sell/relocate); plan calls for branching by interest tag. Currently a single R2 goes to everyone — trim to one block per contact or add interest branches.
+2. Exit conditions from the plan not yet built: stop on reply, on `suppressed`, and on `sa:consult-requested`. Mid-sequence unsubscribes rely on DND plus SA-07; add a re-check (If/Else on `suppressed`) before R2 and R3, or a workflow goal/exit, and test it.
+3. Same publish blockers as SA-01 (real sender domain, fill [BRACKETS], unsubscribe link + mailing address, Phillip approval and broker review, test with own email only).

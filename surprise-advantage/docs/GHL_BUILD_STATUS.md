@@ -95,3 +95,10 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Cleanup pending (needs Phillip's OK): the two test appointments (ids YipNezqcKlsGxlIGW2WR, QYxdtDJBqq7auBNUKOQq) and the two test contacts (g3HPZCp5UbAGJ1Nh61WK, JrcAOmzI9C73g4ghE7Mv).
 - Not yet confirmed: whether the confirmation emails/notifications arrived and look right (Phillip to check his inboxes).
 - Cleanup DONE (2026-10-10, Phillip approved): deleted test appointments YipNezqcKlsGxlIGW2WR and QYxdtDJBqq7auBNUKOQq and test contacts g3HPZCp5UbAGJ1Nh61WK and JrcAOmzI9C73g4ghE7Mv; calendar events list re-read and empty. Phillip's real contact record (Eusolk8gu7gxDWoo1Jzp) untouched.
+
+## SA-07 Suppression / Unsubscribe — built in GHL UI (2026-10-10), DRAFT / NOT PUBLISHED
+- Triggers (two, because the tag filter takes one tag per trigger): Contact Tag added = `suppressed`; Contact Tag added = `unsubscribe-request`
+- Actions: Enable/disable DND (enable, all channels; outbound only — inbound replies still arrive) → Remove from Workflow (SA-04 at minimum; Phillip to confirm whether SA-01/02/03/06 were also selected)
+- Intentionally does NOT add the `suppressed` tag from the `unsubscribe-request` path (would re-fire the other trigger).
+- Status: Draft. Phillip confirmed canvas order and Draft state from a screenshot; the DND channel list and removal targets were set by Phillip and not independently read back by Claude.
+- STILL OPEN (important): legacy workflows (Book Funnel / older drips / "Remove: Unsubscribed…") do not yet exclude `suppressed` or `unsubscribe-request`. Each needs an If/Else or enrollment filter excluding those tags before any marketing send. Do not publish SA-04 until that audit is done.

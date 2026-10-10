@@ -68,3 +68,16 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 1. R2 template holds one block per interest (buy/sell/relocate); plan calls for branching by interest tag. Currently a single R2 goes to everyone — trim to one block per contact or add interest branches.
 2. Exit conditions from the plan not yet built: stop on reply, on `suppressed`, and on `sa:consult-requested`. Mid-sequence unsubscribes rely on DND plus SA-07; add a re-check (If/Else on `suppressed`) before R2 and R3, or a workflow goal/exit, and test it.
 3. Same publish blockers as SA-01 (real sender domain, fill [BRACKETS], unsubscribe link + mailing address, Phillip approval and broker review, test with own email only).
+
+## SA-06 Conversation requested — built in GHL UI (2026-10-10), DRAFT / NOT PUBLISHED
+- Trigger: Contact Tag added = `sa:consult-requested`
+- Actions: Add Task ("Reply to conversation request from {{contact.name}}", due immediately 9:00 AM, skip weekends, Phillip) → Remove from workflow SA-04 → Find opportunity (Surprise Advantage Readers, most recent) → [Found] Update opportunity (stage = Conversation Requested)
+- NOT built: "Customer booked appointment" trigger. It fires on ANY calendar and would catch listing appointments. Add it later with a filter on the Reader Conversation calendar below.
+
+## Reader Conversation calendar (created via API 2026-10-10) — DRAFT, no public link
+- Calendar id `f11kOsBmbXyYpdP686lF`, name "Reader Conversation", slug `reader-conversation`, type personal, team member Phillip (`JxB5kGmJjBl3JewPmVD6`), 30 min, 30-min interval, 1 day notice, 60 days ahead, auto-confirm, `isActive=false`
+- Availability: schedule `wJZWk5YxorTLijgbs0jf` Mon-Fri 09:00-17:00 America/Phoenix, associated ONLY with this calendar
+- Domain Phillip supplied: bookastrategycallwithphillip.com (ownership/DNS not verified by Claude; nothing pointed at it yet)
+- To do (Phillip, in GHL UI): connect Google Calendar to this calendar (sync + conflict check); set meeting location; review booking form
+- To do (consent): GHL's default booking-form consent text is "I confirm that I want to receive content from this company using any contact information I provide." Replace/remove it — booking a conversation is NOT marketing consent. Default thank-you message also needs rewriting.
+- To do: activate calendar only after approval; then forward the domain (GoDaddy forwarding) to the booking link; then add the booking trigger to SA-06 filtered to this calendar.

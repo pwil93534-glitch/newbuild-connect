@@ -81,3 +81,8 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - To do (Phillip, in GHL UI): connect Google Calendar to this calendar (sync + conflict check); set meeting location; review booking form
 - To do (consent): GHL's default booking-form consent text is "I confirm that I want to receive content from this company using any contact information I provide." Replace/remove it — booking a conversation is NOT marketing consent. Default thank-you message also needs rewriting.
 - To do: activate calendar only after approval; then forward the domain (GoDaddy forwarding) to the booking link; then add the booking trigger to SA-06 filtered to this calendar.
+
+### Reader Conversation calendar — update (2026-10-10, verified via API read-back)
+- Google Calendar already connected for Phillip: `pwil93534@gmail.com` (bookings added there; conflicts checked against that Gmail calendar only). OPEN: confirm the listing/showing appointments live on that account, else add the other account under Conflict calendars.
+- Consent line replaced: "I agree to receive messages about this appointment, such as confirmation and reminders. This does not sign me up for marketing emails." Thank-you message replaced (auto-confirm wording). Slug `reader-conversation` confirmed. `isActive` still false.
+- STILL OPEN: meeting location is blank (needs phone / Google Meet / Zoom); activation requires Phillip's approval; domain forward (bookastrategycallwithphillip.com -> booking link) not done; SA-06 booking trigger (filter on calendar `f11kOsBmbXyYpdP686lF`) not added; confirm booking never adds `consent-email`.

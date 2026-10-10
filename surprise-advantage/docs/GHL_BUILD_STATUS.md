@@ -94,3 +94,4 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Calendar set back to inactive (`isActive=false`) after the test. Public booking page is off.
 - Cleanup pending (needs Phillip's OK): the two test appointments (ids YipNezqcKlsGxlIGW2WR, QYxdtDJBqq7auBNUKOQq) and the two test contacts (g3HPZCp5UbAGJ1Nh61WK, JrcAOmzI9C73g4ghE7Mv).
 - Not yet confirmed: whether the confirmation emails/notifications arrived and look right (Phillip to check his inboxes).
+- Cleanup DONE (2026-10-10, Phillip approved): deleted test appointments YipNezqcKlsGxlIGW2WR and QYxdtDJBqq7auBNUKOQq and test contacts g3HPZCp5UbAGJ1Nh61WK and JrcAOmzI9C73g4ghE7Mv; calendar events list re-read and empty. Phillip's real contact record (Eusolk8gu7gxDWoo1Jzp) untouched.

@@ -103,3 +103,8 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Status: Draft. Phillip confirmed canvas order and Draft state from a screenshot; the DND channel list and removal targets were set by Phillip and not independently read back by Claude.
 - Legacy workflows (read-only listing 2026-10-10: ~70 workflows, ~55 published, mostly stock real-estate drip templates): GHL will not send email/SMS to a contact with DND on from ANY workflow, so SA-07's DND step (and the Hub unsubscribe form, which sets DND directly) is the cross-workflow backstop. No bulk edit of legacy workflows is planned.
 - STILL OPEN: review the three legacy workflows aimed at the same audience — "Book Funnel Moving Forward", "NewBuild Connect Waitlist", "New Build Buyer Shield" — and add a tag exclusion (`suppressed`, `unsubscribe-request`) if they send marketing. Also Phillip's decision D3 (whether legacy contacts are ever marketed to) remains pending. Publish SA-07 before SA-04.
+
+## SMS numbers — read-only check (2026-10-10)
+- Both numbers Phillip named exist on the GHL location (Twilio origin; SMS, MMS and voice capable): +16232923737 "Phillip's number" (default, linked to Phillip, forwards calls to Phillip's mobile) and +14808410728 "Phillip's number 2" (inbound calls go to a Voice AI agent).
+- NOT verifiable via API: A2P 10DLC brand/campaign registration status (no endpoint exposed). Phillip states both are registered; confirm "approved" in GHL Trust Center before any text is sent.
+- The consent-sms text in SA-02 is still not built. Decide which number sends it; the Voice AI number should not be the sender of replies-expected texts unless intended.

@@ -108,3 +108,9 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Both numbers Phillip named exist on the GHL location (Twilio origin; SMS, MMS and voice capable): +16232923737 "Phillip's number" (default, linked to Phillip, forwards calls to Phillip's mobile) and +14808410728 "Phillip's number 2" (inbound calls go to a Voice AI agent).
 - NOT verifiable via API: A2P 10DLC brand/campaign registration status (no endpoint exposed). Phillip states both are registered; confirm "approved" in GHL Trust Center before any text is sent.
 - The consent-sms text in SA-02 is still not built. Decide which number sends it; the Voice AI number should not be the sender of replies-expected texts unless intended.
+
+## Email sending domain (2026-10-10)
+- Existing GHL dedicated domain `phillip.phillipwilliamsrealestategroup.com` (added 2026-05-01, shared IP, SSL issued, warm-up stage 1 = 1,000 emails/day limit). Subdomain only; root domain and existing email untouched.
+- Domain Configuration screen (read by Phillip): SPF (TXT), DKIM (k1._domainkey.phillip), tracking CNAME (email.phillip -> mailgun.org), MX x2 (mxa/mxb.mailgun.org), DMARC (`v=DMARC1;p=none;`) — all show Verified.
+- Dedicated header ("Set Headers"): intended From name "Phillip Williams", From email `phillip@phillip.phillipwilliamsrealestategroup.com` — Phillip to confirm it saved.
+- Follow-ups: tighten DMARC to `p=quarantine` after clean warm-up; send ONE test email to Phillip's own inbox from the new sender; confirm replies reach GHL Conversations; then replace the Gmail placeholder From in SA-01, SA-02 and SA-04 emails with the new sender. Privacy-policy URLs Phillip supplied are unreadable from this sandbox (network policy) — text must be pasted for review.

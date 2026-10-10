@@ -114,3 +114,8 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Domain Configuration screen (read by Phillip): SPF (TXT), DKIM (k1._domainkey.phillip), tracking CNAME (email.phillip -> mailgun.org), MX x2 (mxa/mxb.mailgun.org), DMARC (`v=DMARC1;p=none;`) — all show Verified.
 - Dedicated header ("Set Headers"): intended From name "Phillip Williams", From email `phillip@phillip.phillipwilliamsrealestategroup.com` — Phillip to confirm it saved.
 - Follow-ups: tighten DMARC to `p=quarantine` after clean warm-up; send ONE test email to Phillip's own inbox from the new sender; confirm replies reach GHL Conversations; then replace the Gmail placeholder From in SA-01, SA-02 and SA-04 emails with the new sender. Privacy-policy URLs Phillip supplied are unreadable from this sandbox (network policy) — text must be pasted for review.
+
+## Sender switched from placeholder (2026-10-10)
+- Test email sent by Phillip from the new sender (`phillip@phillip.phillipwilliamsrealestategroup.com`, name "Phillip Williams") to his Gmail: landed in INBOX; his reply came back into GHL Conversations (inbound routing works). SPF/DKIM/DMARC "Show original" PASS results not yet reported by Phillip.
+- From name/email updated by Phillip in all five Send Email actions: SA-01 (T1), SA-02 (T2), SA-04 (R1, R2, R3). Click tracking, UTM and auto-tagging left OFF. All workflows still Draft.
+- The Gmail placeholder blocker is RESOLVED. Remaining publish blockers: fill [BRACKETS] in T1/T2/R1-R3, unsubscribe link + physical mailing address in every email, privacy policy review (URL not readable from sandbox — text needed), broker/eXp compliance review, R2 interest trimming, SA-04 exit conditions, SMS text for SA-02, Phillip's own approval and OWNER_APPROVALS flags.

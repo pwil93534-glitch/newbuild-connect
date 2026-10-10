@@ -86,3 +86,11 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - Google Calendar already connected for Phillip: `pwil93534@gmail.com` (bookings added there; conflicts checked against that Gmail calendar only). OPEN: confirm the listing/showing appointments live on that account, else add the other account under Conflict calendars.
 - Consent line replaced: "I agree to receive messages about this appointment, such as confirmation and reminders. This does not sign me up for marketing emails." Thank-you message replaced (auto-confirm wording). Slug `reader-conversation` confirmed. `isActive` still false.
 - STILL OPEN: meeting location is blank (needs phone / Google Meet / Zoom); activation requires Phillip's approval; domain forward (bookastrategycallwithphillip.com -> booking link) not done; SA-06 booking trigger (filter on calendar `f11kOsBmbXyYpdP686lF`) not added; confirm booking never adds `consent-email`.
+
+### Reader Conversation calendar — live test result (2026-10-10, Phillip approved activation for a test only)
+- Locations now: Custom "Phone call. Phillip will call you at the number you provide when you book." (label "Phone call") + Google Meet. Verified by API read-back.
+- Phone is REQUIRED on the booking form (Phillip tested without it).
+- Two test bookings (Phillip's own addresses) landed as confirmed appointments on 2026-10-12 09:00 and 09:30 America/Phoenix; Google Meet link was generated; the phone booking shows the phone text. Contacts created with source "Reader Conversation" and NO tags (no `consent-email` added by booking) — confirmed.
+- Calendar set back to inactive (`isActive=false`) after the test. Public booking page is off.
+- Cleanup pending (needs Phillip's OK): the two test appointments (ids YipNezqcKlsGxlIGW2WR, QYxdtDJBqq7auBNUKOQq) and the two test contacts (g3HPZCp5UbAGJ1Nh61WK, JrcAOmzI9C73g4ghE7Mv).
+- Not yet confirmed: whether the confirmation emails/notifications arrived and look right (Phillip to check his inboxes).

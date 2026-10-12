@@ -126,3 +126,10 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - To verify: send one test of each from the workflow action and confirm the unsubscribe link renders as a real URL (do not click it on a real contact — it sets DND). `{{email.unsubscribe_link}}` is GHL's standard variable but was not yet confirmed by a rendered test.
 - Business name/address come from the GHL location profile ("Phillip Williams Real Estate Group Brokered by EXp Realty", 16165 N 83rd Avenue, Peoria AZ 85382). Broker may require specific wording/address: confirm in the compliance review.
 - Remaining brackets: R2 `[SITE DOMAIN]` + per-interest line selection (suggest sending the single "All resources" line); R3 `[CALENDAR LINK]` (booking widget path is /widget/bookings/reader-conversation; domain forward not set up).
+
+## A2P 10DLC status — confirmed by Phillip's screenshot (2026-10-12)
+- Phone System > Phone Numbers shows the banner "You are now A2P 10DLC compliant."
+- **+1 623-292-3737** ("Phillip's number", default): tagged **A2P Verified**. This is the sender number for any campaign texts.
+- **+1 480-841-0728** ("Phillip's number 2"): no A2P Verified tag shown. Do not use it for texting until it shows the tag.
+- This replaces the earlier "A2P not verifiable" note (my tools could not see it; the screenshot is the evidence).
+- Still required before any text goes out: Phillip-approved SMS opt-in wording (own opt-in only, STOP/HELP language), broker/compliance review, and his explicit go-ahead. Texts remain off; the consent-sms "shipped" text is still not built.

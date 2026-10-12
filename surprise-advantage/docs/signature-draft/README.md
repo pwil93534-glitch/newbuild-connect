@@ -6,3 +6,7 @@ Preview: `sig.png`. Source: `sig.html` (images are local copies; they must be ho
 - REALTOR® and Equal Housing logos: not added (supplied REALTOR image was a watermarked copy; membership and required wording to be confirmed by broker).
 - License number and Equal Housing wording are as in BROKER_COMPLIANCE_REQUEST.md; broker to confirm required wording.
 - Needs broker/eXp compliance review before use.
+
+## Update 2026-10-12 (later)
+- Added `sig-dark.html` / `sig-dark.png`: light-colored text, white-lettered PW logo, white eXp logo, white badges, for dark-mode backgrounds. Email clients mostly cannot swap images by theme; use the light or dark file per context (or a light panel behind logos).
+- Added Equal Housing Opportunity and REALTOR® logos, made from the low-resolution image Phillip supplied (black, transparent background). REALTOR® use requires NAR/local-association membership and follows NAR usage rules; broker to confirm membership, wording and placement. Request official high-resolution marks from NAR and the Equal Housing Opportunity logo from HUD.

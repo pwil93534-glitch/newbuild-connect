@@ -31,3 +31,29 @@ Phillip
 6. **Trademark marks:** the site uses ™ on "The Surprise Advantage", "Strategy Review", "Market Brief". Use ™ only (not ®) unless a mark is registered.
 7. **No testimonials or review counts** until verified and approved (the Hub currently has none — keep it that way).
 8. **Record the approval:** save the broker's written OK with the launch records, and re-check after any major content change.
+
+## eXp Policies & Procedures check (Version R, September 2026, 98 pp.) — added 2026-10-12
+Checked against the PDF Phillip supplied. Page numbers are the policy's own. This is a reading of the policy, not legal advice or broker approval.
+
+### Already consistent
+- No "eXp"/"exp" in the sender domain (`phillip.phillipwilliamsrealestategroup.com`), booking domain, or email addresses (p. 34–35, rule C.2.d).
+- Emails carry an unsubscribe link and mailing address; interest is not treated as marketing consent; opt-out sets DND/suppression (supports "Solicitation Laws" duty, p. 32–33).
+- No invented testimonials, stats or credentials (p. 32, content must be "completely factual").
+- Reader Guide chat is off by default.
+
+### Needs action before anything goes public
+1. **Marketing review.** Custom-created content (not eXp Canva templates) must go through the compliance channel in "Marketing Review and Approval" (p. 34 and following) *before publication*. That covers the Hub, the book site, the five emails, the booking page and the reader PDFs. Ask the Arizona State Broker which channel to use.
+2. **Website branding (p. 34, B.4).** Above the fold: agent name and/or team name plus the eXp logo, and a clear contact line. Check the Hub header and the book site against this.
+3. **eXp affiliation on content with contact info (B.4, C.2.c).** Use the eXp Realty logo together with team name/logo. Email footers currently show business name and address only; add the brokerage identification the broker specifies.
+4. **Team name (pp. 80–81).** Team names may not use "Realty" or "Real Estate" and need the State Broker's written approval. "Phillip Williams Real Estate Group" (GHL business name, domain, Hub footer) likely conflicts. Do not change names yet; ask the broker (question 3 above) and hold the name in footers/sender until answered.
+5. **AI (pp. 77–79).** If the Reader Guide chat is ever turned on, the policy's disclosure text must be clearly and conspicuously shown: "Important: This is an automated AI tool and not an eXp agent. It does not provide legal, financial, or real estate advice and does not represent you in any transaction. Please consult directly with your eXp agent before making decisions." Also: no personal information into AI tools that train on it or store it outside the U.S.; human fact-check of all AI-assisted content before sending/publishing; AI messaging needs prior consent, clear identification and opt-out.
+6. **Fair Housing (p. 77).** AI-assisted copy and responses must follow fair housing law; keep school/neighborhood language neutral (already item 2 above).
+7. **TCPA / CAN-SPAM / DNC (pp. 32–33, 66).** The agent is solely responsible. Texts stay off until A2P approval is confirmed in GHL and the SMS opt-in wording is approved; screen against the Do Not Call rules before any calls.
+
+### Add to the broker email
+- Which compliance channel/bot should receive the Hub, book site, emails and booking page, and the expected turnaround?
+- Required wording/placement for eXp logo + team name on the website and in email footers.
+- Is "Phillip Williams Real Estate Group" acceptable, or what team name should be used?
+- Confirm the AI disclosure wording and any Arizona-specific addition if the chat is enabled.
+
+Nothing was changed on the site, in GHL, or in OWNER_APPROVALS.json as a result of this review.

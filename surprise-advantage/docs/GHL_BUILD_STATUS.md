@@ -140,3 +140,6 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - **Both links do not work yet.** The Hub is unpublished (`/reader/` not live) and the domain forward from bookastrategycallwithphillip.com to the GHL calendar is not set up; the calendar is inactive. Each needs Phillip's approval. No email may be sent until they work.
 - DRAFT banners are still on all five templates; remove only after Phillip's approval and broker review.
 - Workflow Send Email actions still hold the older copy: Phillip must re-select T1/T2/R1/R2/R3 in SA-01, SA-02, SA-04.
+
+## Template re-selection done (2026-10-12, reported by Phillip)
+Phillip re-selected T1 (SA-01), T2 (SA-02) and R1/R2/R3 (SA-04) in the workflow Send Email actions and saved each; all stay Draft. Claude cannot read workflow steps through the API, so this is Phillip's report, not independently verified. Not yet tested: that `{{email.unsubscribe_link}}` renders and that From is the new sender (needs a test send to Phillip's own address, with his OK; do not click unsubscribe on his real contact).

@@ -143,3 +143,8 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 
 ## Template re-selection done (2026-10-12, reported by Phillip)
 Phillip re-selected T1 (SA-01), T2 (SA-02) and R1/R2/R3 (SA-04) in the workflow Send Email actions and saved each; all stay Draft. Claude cannot read workflow steps through the API, so this is Phillip's report, not independently verified. Not yet tested: that `{{email.unsubscribe_link}}` renders and that From is the new sender (needs a test send to Phillip's own address, with his OK; do not click unsubscribe on his real contact).
+
+## Test send result + R3 converted to HTML (2026-10-12)
+- Test of R3 to Phillip's own address: From `phillip@phillip.phillipwilliamsrealestategroup.com`, reply-to same, mailed-by and signed-by = the new sending domain (SPF/DKIM aligned), TLS, landed in Inbox. `{{email.unsubscribe_link}}` rendered as a real GHL unsubscribe URL; business name and Peoria address rendered.
+- Problem: plain-text templates lose line breaks (whole email ran together; raw long unsubscribe URL). Fix: R3 (`6ac6cad41ea8584cd774acd7`) converted to simple HTML (single column, paragraphs, "Choose a time to talk" link, small gray footer with short "Unsubscribe" link, address, DRAFT banner). Wording unchanged.
+- T1, T2, R1, R2 still plain text; convert after Phillip approves R3's look. The workflows hold copies, so all five must be re-selected again after conversion.

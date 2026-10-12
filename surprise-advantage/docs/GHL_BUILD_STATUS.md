@@ -133,3 +133,10 @@ GHL has no "Create pipeline" button for this account (white-label), so an unused
 - **+1 480-841-0728** ("Phillip's number 2"): no A2P Verified tag shown. Do not use it for texting until it shows the tag.
 - This replaces the earlier "A2P not verifiable" note (my tools could not see it; the screenshot is the evidence).
 - Still required before any text goes out: Phillip-approved SMS opt-in wording (own opt-in only, STOP/HELP language), broker/compliance review, and his explicit go-ahead. Texts remain off; the consent-sms "shipped" text is still not built.
+
+## Email placeholders filled (2026-10-12)
+- R2 (`6ac6cad1647447b57a69779a`): per-interest lines removed; now one link, https://phillipwilliamsrealestategroup.com/reader/ (Phillip's chosen address). The R2 interest-trimming to-do is closed.
+- R3 (`6ac6cad41ea8584cd774acd7`): booking link set to https://bookastrategycallwithphillip.com (Phillip's choice).
+- **Both links do not work yet.** The Hub is unpublished (`/reader/` not live) and the domain forward from bookastrategycallwithphillip.com to the GHL calendar is not set up; the calendar is inactive. Each needs Phillip's approval. No email may be sent until they work.
+- DRAFT banners are still on all five templates; remove only after Phillip's approval and broker review.
+- Workflow Send Email actions still hold the older copy: Phillip must re-select T1/T2/R1/R2/R3 in SA-01, SA-02, SA-04.

@@ -10,3 +10,9 @@ Preview: `sig.png`. Source: `sig.html` (images are local copies; they must be ho
 ## Update 2026-10-12 (later)
 - Added `sig-dark.html` / `sig-dark.png`: light-colored text, white-lettered PW logo, white eXp logo, white badges, for dark-mode backgrounds. Email clients mostly cannot swap images by theme; use the light or dark file per context (or a light panel behind logos).
 - Added Equal Housing Opportunity and REALTOR® logos, made from the low-resolution image Phillip supplied (black, transparent background). REALTOR® use requires NAR/local-association membership and follows NAR usage rules; broker to confirm membership, wording and placement. Request official high-resolution marks from NAR and the Equal Housing Opportunity logo from HUD.
+
+## Update 2026-10-12 (simplified + reply versions)
+After a candid 6.5/10 self-rating (too many marks competing, small logos, heavy for repeat use):
+- `sig-simple(.html/-dark.html)`: square headshot (no rounded corners, so Outlook looks the same), one contact line, larger PW + eXp logos (72px), a single small row for Equal Housing + REALTOR® + license.
+- `sig-reply(.html/-dark.html)`: text only, no images: "Phillip Williams | Real Estate Strategist | eXp Realty", phone, Book a conversation, license. Inherits the reader's colors, so it works in light and dark.
+- Still DRAFT. Open items: broker approval (incl. "Real Estate Group" logo, REALTOR® membership/wording), official high-res marks, hosted image URLs, real inbox tests (Gmail, Outlook).

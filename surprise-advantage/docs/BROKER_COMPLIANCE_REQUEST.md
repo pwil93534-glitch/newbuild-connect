@@ -57,3 +57,9 @@ Checked against the PDF Phillip supplied. Page numbers are the policy's own. Thi
 - Confirm the AI disclosure wording and any Arizona-specific addition if the chat is enabled.
 
 Nothing was changed on the site, in GHL, or in OWNER_APPROVALS.json as a result of this review.
+
+
+## Update 2026-10-13: correct recipient and final email
+- eXp Expert Care (Arizona Agent FAQs) says to send websites, emails and signatures to **az.adreview@exprealty.net** before publishing. Arizona also offers **C.A.R.L.O.** (upload custom materials; it reports approved or what to fix, and sends the report to the State Broker team). National policy: review by the review bot where available and/or State Broker review teams. Turnaround time and whether "Real Estate Group" is allowed in a name are NOT stated in the sources; ask them.
+- Phillip's My eXp profile shows he is **not on a team** (IsInTeam false), so "Phillip Williams Real Estate Group" is not a registered eXp team name; still ask the review team before using it.
+- The ready-to-send email is in `BROKER_EMAIL_FINAL.md` (supersedes the draft above). Phillip must fill in the Hub/booking links, attach screenshots, and send it himself.

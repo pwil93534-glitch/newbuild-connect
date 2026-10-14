@@ -50,3 +50,9 @@
 
 ## 2026-10-09 — GHL pipeline
 - Phillip repurposed the empty "Buyer Leads (Purchase Phase)" template pipeline into "Surprise Advantage Readers" (7 stages) with step-by-step guidance; verified read-only via API. IDs in GHL_BUILD_STATUS.md.
+
+## 2026-10-14: Privacy Policy and Terms & Conditions drafts
+- Phillip supplied two links (HighLevel site preview for the privacy policy; GHL page-builder URL for the terms page of phillipwilliamsrealestategroup.com). Claude could not read either: sites.leadconnectorhq.com is blocked by the sandbox proxy (403) and the builder URL needs a login. The funnels API lists pages but not content.
+- Drafted from the actual data flow in `lib/core.mjs` and the forms: `site/privacy/index.html` (replaced the earlier stub) and new `site/terms/index.html`; footer links to Terms added on 11 pages. Pages remain `noindex`. Marked PENDING-OWNER: retention period, hosting provider, broker data-sharing question, copy-offer policy (D5), MLS attribution, EHO/eXp disclosure wording, counsel review of liability/governing-law.
+- Tests pass (13/13). `npm run check` still lists PENDING-OWNER blocks as expected: launch gate stays closed until Phillip clears them.
+- Next: Phillip pastes the text of his existing privacy policy and terms so Claude can reconcile wording; send both drafts to the broker/eXp ad review.

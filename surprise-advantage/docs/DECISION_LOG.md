@@ -17,3 +17,6 @@
 | 13 | 2026-10-07 | GHL campaign designed as drafts only; legacy contacts excluded until Phillip decides (D3) | Rule 3 and 10; legacy consent basis unknown |
 | 14 | 2026-10-07 | Monthly briefing sent manually, not automated | Rule 6: market content needs verified sources and dates |
 | 15 | 2026-10-07 | Website = existing Lovable "Surprise Strategy Hub"; `site/` superseded; `lib/`, tests, GHL tags carry over | Rule: do not duplicate an existing website. Phillip confirmed the book is on Amazon and the Hub exists. |
+
+## 2026-10-14: Phillip reports broker/eXp approval (not yet documented)
+Phillip told Claude he has been approved on everything, including the business name "Phillip Williams Real Estate Group", by his broker. Claude has NOT seen the written approval. Action: Phillip to paste or forward the written approval so it can be filed with the launch records (the P&P requires written State Broker approval of a team/business name). Until then: nothing is published, activated or sent; the eight OWNER_APPROVALS.json flags remain Phillip's alone to set; each go-live step (privacy policy, Hub publish, booking domain forward, calendar activation, workflow publish, any send) still needs his explicit go at the moment of action.

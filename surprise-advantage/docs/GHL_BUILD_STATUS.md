@@ -171,3 +171,8 @@ Retention 24 months after last interaction or until deletion request; brokerage 
 
 ## Booking domain confirmed (2026-10-15)
 Phillip confirmed the booking domain is `bookastrategycallwithphillip.com` (with "a"), registered at GoDaddy. Forward to the Reader Conversation calendar's public booking link (copied from GHL calendar share link). Use a temporary (302) forward so it can be retargeted. Claude cannot edit GoDaddy DNS/forwarding; Phillip does it, then tests in a private browser window.
+
+## Booking domain confirmed (2026-10-15)
+- bookastrategycallwithphillip.com (GoDaddy forward) verified by Phillip in a private window: forwards to the live "Reader Conversation" calendar (30 min, America/Phoenix). No test booking made.
+- Host decision: Vercel (preview first per docs/DEPLOY.md). Plan (Hobby vs Pro) and privacy-policy host blank still pending Phillip.
+- Local renders of the current Hub saved in docs/site-preview/.

@@ -19,3 +19,10 @@ NOT reviewed: api/contact, api/market-update, page copy, privacy/terms/accessibi
 - Missing vs decisions: "REALTOR®" after Phillip's name; visible Equal Housing logo (text only). Phillip to confirm brokerage/designated-broker license numbers are exactly as eXp lists them.
 - Team name line "Phillip Williams Real Estate Group | Brokered by eXp Realty" relies on the broker-approved name.
 - Confirm /privacy, /terms, /accessibility, /unsubscribe exist and match the reconciled privacy/terms drafts.
+
+## Update 2026-10-15 (Lovable edits prepared, nothing published)
+- Reader Guide: eXp AI disclosure shown verbatim above the input; Privacy and "Talk to Phillip" links added.
+- Footer: "Phillip Williams, REALTOR®" text; brand row = monogram + divider + eXp; white Equal Housing Opportunity logo beside the © line (REALTOR® logo dropped by owner's choice; confirm with eXp ad review).
+- /privacy and /terms added from the reconciled drafts (noindex, PENDING-OWNER lines kept). New Reader Guide (AI chat) section in privacy.
+- Book page already had Kindle (B0GZX9H323) and paperback (B0HL875GDP) Amazon links. Phillip also supplied https://a.co/d/061Z67XR; he tested all three links by hand and confirmed they work (Claude cannot reach Amazon from the sandbox).
+- Still open: host confirmation (Lovable) for privacy line; AI provider data-processing/training answer; eXp ad review of the site; forms/chat tested on a preview with Phillip's own contact; CHAT_ENABLED/FORM_ENABLED stay off until then.

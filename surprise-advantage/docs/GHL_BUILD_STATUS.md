@@ -168,3 +168,6 @@ First test showed the older text signature (stale editor copy; template itself w
 
 ## Privacy/Terms decisions applied (2026-10-15)
 Retention 24 months after last interaction or until deletion request; brokerage receives data only if the lead becomes a client; Amazon ships the book (disclosed); copy offer limited, at Phillip's discretion (25 copies purchased); Kindle available; EHO wording written by Claude from standard fair-housing language (not eXp text); footers on all site pages now carry name, REALTOR(R), license, eXp Realty, Equal Housing Opportunity. Still pending: web host name.
+
+## Booking domain confirmed (2026-10-15)
+Phillip confirmed the booking domain is `bookastrategycallwithphillip.com` (with "a"), registered at GoDaddy. Forward to the Reader Conversation calendar's public booking link (copied from GHL calendar share link). Use a temporary (302) forward so it can be retargeted. Claude cannot edit GoDaddy DNS/forwarding; Phillip does it, then tests in a private browser window.

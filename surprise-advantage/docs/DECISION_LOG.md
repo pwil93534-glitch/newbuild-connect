@@ -23,3 +23,9 @@ Phillip told Claude he has been approved on everything, including the business n
 
 ## 2026-10-14: Phillip's decision on privacy/terms approval
 Phillip's position: the privacy policy and terms (including the SMS terms) are based on policies provided during GHL A2P registration, which he says were approved, and that privacy/terms are federal matters (TCPA, CTIA) not needing fresh eXp approval; he will notify eXp but not wait. His site, emails, signature and business name were cleared in C.A.R.L.O. and approved by his broker (written copy not yet filed). Claude's note for the record: eXp's P&P says custom-created website content goes through eXp review before publication, so the cover note is framed as notice (FYI), not a request. Privacy/terms also involve state law and the book site's own data practices, so counsel review remains advisable. Indemnification clause: left OFF the book-site terms for now; a narrow version is available if Phillip wants it. Open: published phone number, effective date, retention period, hosting provider, copy-offer policy.
+
+## 2026-10-15: Phillip's decisions on privacy/terms
+- Published phone number: (623) 292-3737 (not 850-4232).
+- Effective date: October 15, 2026 (date of modification), set on both pages.
+- Indemnity: YES, narrow one-sided clause added ("Responsibility for your use"): responsible for losses if you submit someone else's information without permission or misuse the site in breach of the terms. Counsel to confirm wording.
+- Pages remain noindex/draft in the repo until deployment is separately approved.

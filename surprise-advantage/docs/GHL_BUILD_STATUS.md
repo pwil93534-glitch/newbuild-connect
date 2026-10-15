@@ -160,3 +160,11 @@ Phillip uploaded the five images to GHL Media Storage (prefix `SA_`); Claude rea
 
 ## T1 test with full signature (2026-10-13, Phillip's screenshot)
 First test showed the older text signature (stale editor copy; template itself was verified correct via its preview file). After reload, the second test to Phillip's own address rendered the full signature correctly in Gmail desktop: headshot, name/title, phone, phillipknowsaz.com, PW + eXp logos, EHO + REALTOR marks, license, footer with unsubscribe/address, DRAFT line. Not yet checked: phone/Outlook rendering, dark mode, and the T2/R1/R2/R3 sends. Email build is complete pending broker approval, live links (Hub, booking domain forward, calendar activation), and a real privacy policy.
+
+## Reader Conversation calendar ACTIVATED (2026-10-15, Phillip's explicit go)
+- Calendar `f11kOsBmbXyYpdP686lF` set isActive=true via update-calendar. Verified free slots exist (e.g., 2026-10-16, Phoenix time, 9:00-4:30 start times, some blocked by his Google calendar). Hours Mon-Fri 9-5 intact; consent label unchanged (appointment messages only, not marketing).
+- Not done by Claude (needs Phillip): domain forward from the booking domain to the calendar's public booking link (DNS/registrar or GHL domain settings), and publishing the Hub. SA-06 and all workflows remain Draft.
+- SPELLING CHECK: emails and signature use `bookastrategycallwithphillip.com`; Phillip's last message wrote "bookstrategycallwithphillip.com" (no "a"). Confirm which domain is the real one before forwarding.
+
+## Privacy/Terms decisions applied (2026-10-15)
+Retention 24 months after last interaction or until deletion request; brokerage receives data only if the lead becomes a client; Amazon ships the book (disclosed); copy offer limited, at Phillip's discretion (25 copies purchased); Kindle available; EHO wording written by Claude from standard fair-housing language (not eXp text); footers on all site pages now carry name, REALTOR(R), license, eXp Realty, Equal Housing Opportunity. Still pending: web host name.

@@ -1,6 +1,6 @@
 PHILLIP WILLIAMS BRAND SUITE (eXp Realty logo) - DRAFT FOR REVIEW
 =================================================================
-Start with 1-Overview/Brand-Suite-Overview.pdf (6 pages): today's banner next to the new designs.
+Start with 1-Overview/Brand-Suite-Overview.pdf (6 pages): the full suite on one page each.
 
 FOLDERS
  2-Letterhead            8.5 x 11 in PDFs: blank and sample

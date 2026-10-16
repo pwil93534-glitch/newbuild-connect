@@ -1,0 +1,36 @@
+SURPRISE ADVANTAGE LAUNCH: WHAT TO KEEP
+(Tick each box when the item is saved in Documents > Surprise Advantage)
+
+KEEP: FILES ON YOUR iMAC
+[ ] SEND-TO-EXP folder (the 3 PDFs, email text, README)         -> 1 Send to eXp
+[ ] eXp's written reply to your email (save as PDF from Gmail)   -> 1 Send to eXp
+[ ] Your State Broker's written approval of the name/site       -> 1 Send to eXp
+[ ] Your original logo files and headshot (from Downloads)       -> 2 Brand and Logos
+[ ] Signature images (any "sig-clean" files and the images in the signature set) -> 3 Emails and Signatures
+[ ] Your old Privacy Policy and Terms (the GHL-era versions)     -> 4 Legal (Privacy and Terms)
+[ ] Anything from eXp, C.A.R.L.O. or Team Services (screenshots, emails) -> 1 Send to eXp
+[ ] Book files you own: manuscript, cover, Kindle/Amazon proofs  -> 5 Book and Amazon
+
+KEEP: ACCOUNTS AND LINKS (nothing to save; just don't lose access)
+[ ] Lovable project: "Surprise Strategy Hub" (your Lovable login)
+[ ] HighLevel account (emails, calendar, workflows are all still DRAFT)
+[ ] GoDaddy domain: bookastrategycallwithphillip.com (forwards to your calendar)
+[ ] Amazon links: Kindle https://a.co/d/0eCHT0kv   Paperback https://a.co/d/0bnqkcv3
+[ ] Gmail draft to az.adreview@exprealty.net (until you send it)
+
+DO NOT DELETE YET
+[ ] Anything from this week's work until eXp answers and the site is live
+[ ] Your SSD drive: leave it connected and untouched
+
+SAFE TO REVIEW LATER (after launch, one week from now)
+[ ] Old installers (.dmg, .pkg) in Downloads
+[ ] Duplicate screenshots and test images
+[ ] Old drafts replaced by the SEND-TO-EXP versions
+
+STILL TO DO FOR LAUNCH
+[ ] Send the eXp email and upload the 3 PDFs to C.A.R.L.O.
+[ ] Confirm Lovable as the host (then the privacy policy host line gets filled in)
+[ ] Ask the AI provider where chat questions are processed (or launch with chat off)
+[ ] Test the forms with your own contact on a preview
+[ ] Rotate the HighLevel token that was exposed earlier
+[ ] Say "go" before anything is published

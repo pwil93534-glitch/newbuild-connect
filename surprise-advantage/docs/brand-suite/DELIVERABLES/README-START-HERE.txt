@@ -9,8 +9,8 @@ WHAT CHANGED (from eXp's email)
  - Email shown: phillip.a.williams@exprealty.com (the "realestategroup" address needs Nicole's OK first).
 
 STILL NEEDED BEFORE THESE ARE FINAL
- - The dashed boxes marked "CURRENT eXp REALTY LOGO" need the current logo from the eXp Brand Guidelines.
-   Send me the files (light and dark versions) and I will place them and re-export.
+ - The current eXp Realty logo is placed on every piece (black on light, white reversal on navy).
+   If eXp has an official white file, send it and I will swap it in.
  - Your original high-resolution monogram, without the "Real Estate Group" line (the current file is small).
  - Send the updated drafts to Nicole for review before printing or sending.
 

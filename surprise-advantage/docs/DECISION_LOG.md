@@ -29,3 +29,5 @@ Phillip's position: the privacy policy and terms (including the SMS terms) are b
 - Effective date: October 15, 2026 (date of modification), set on both pages.
 - Indemnity: YES, narrow one-sided clause added ("Responsibility for your use"): responsible for losses if you submit someone else's information without permission or misuse the site in breach of the terms. Counsel to confirm wording.
 - Pages remain noindex/draft in the repo until deployment is separately approved.
+
+| 20 | 2026-10-19 | "Real Estate Group" retired from all advertising; use "Phillip Williams" and "Real Estate Strategist" | eXp Regulatory Relations (N. Battin): single-agent "Real Estate Group" violates A.A.C. R4-28-502(C) (implies a team). Also: retired blue/orange eXp logo not allowed; eXp logo must be at least as large as personal logo. Applied to brand suite, Lovable site, repo site pages. GHL business name, email templates and domain naming (phillipwilliamsrealestategroup.com, phillip.phillipwilliamsrealestategroup.com) still to be addressed. |

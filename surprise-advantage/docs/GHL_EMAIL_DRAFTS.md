@@ -52,7 +52,6 @@ Here is a checklist that goes with the book:
 They're general education, not legal, tax or financial advice.
 — Phillip
 [STANDARD FOOTER]
-[STANDARD FOOTER]
 
 ## R3 — Day 21 (consent-email)
 **Subject:** What questions did the book leave you with?

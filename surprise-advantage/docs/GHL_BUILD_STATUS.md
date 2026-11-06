@@ -176,3 +176,9 @@ Phillip confirmed the booking domain is `bookastrategycallwithphillip.com` (with
 - bookastrategycallwithphillip.com (GoDaddy forward) verified by Phillip in a private window: forwards to the live "Reader Conversation" calendar (30 min, America/Phoenix). No test booking made.
 - Host decision: Vercel (preview first per docs/DEPLOY.md). Plan (Hobby vs Pro) and privacy-policy host blank still pending Phillip.
 - Local renders of the current Hub saved in docs/site-preview/.
+
+## Template footers updated (2026-11-06, approved by Phillip, done via templates API, each read back and matched)
+- All six SA DRAFT templates (T1, T2, R1, R2, R3, M1) now end with: "Phillip Williams, REALTOR® | Real Estate Strategist / Brokered by eXp Realty, LLC · Arizona brokerage license LC634213000 / Arizona real estate license SA657637000 / 16165 N 83rd Avenue, Peoria, AZ 85382" plus the existing unsubscribe link ({{email.unsubscribe_link}}) and, on R1–R3/M1, the "why you're receiving this" line.
+- Removed `{{location.name}}` from every footer (it renders the GHL business name, which still contains "Real Estate Group"). Alt text "Phillip Williams Real Estate Group" on the T1/R1 logo image changed to "Phillip Williams".
+- Draft banners kept. Nothing sent; no workflow touched (workflow API not enabled for this location).
+- STILL OPEN: (1) T1/R1 signature images are the OLD personal logo (may show "Real Estate Group") and OLD eXp logo, plus a REALTOR® logo — replace in GHL media with the new pw-mark and current eXp logo; (2) R2 links to phillipwilliamsrealestategroup.com/reader/ — domain pending Nicole's answer; (3) re-select each template inside SA-01/02/04 Send Email actions so workflows pick up the new text; (4) confirm 16165 N 83rd Ave is the mailing address Phillip wants; (5) GHL business name still says "Real Estate Group".

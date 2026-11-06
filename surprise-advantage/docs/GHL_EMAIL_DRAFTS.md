@@ -14,7 +14,7 @@ Unsubscribe: {{email.unsubscribe_link}}
 ```
 Notes:
 - `{{email.unsubscribe_link}}` is HighLevel's unsubscribe merge tag (written from memory, not yet tested on your account). Send a test to your own address and click it before any real send; it should set the contact to Do Not Disturb, which SA-07 relies on.
-- The address is the eXp office address used on the old site pages. **Confirm it is the address you want on mailings** (a valid physical postal address is required in every marketing email).
+- Mailing address confirmed by Phillip on 2026-11-06.
 - Wording follows Nicole Battin's ruling ("Phillip Williams" + "Real Estate Strategist", no "Real Estate Group"). Her answer on required CRM footer wording is still pending; adjust if she specifies something different.
 - Use the footer without the "because" line on T1/T2 if you prefer; the unsubscribe link and address stay.
 

@@ -189,3 +189,8 @@ Phillip confirmed the booking domain is `bookastrategycallwithphillip.com` (with
 - Each template read back after update and matched. Nothing sent; workflows untouched.
 - These links will not work until the domain is connected to the Lovable site and published.
 
+
+## Domain connected (2026-11-11)
+- GoDaddy DNS checked via dns.google: phillipwilliamsrealestate.com and www A -> 185.158.133.1 (Lovable); _lovable TXT present. Lovable Domains screen shows "Active · www included" (Phillip's screenshot).
+- phillipwilliamsrealestatestrategist.com points at GoDaddy forwarding IPs; it also carries HighLevel/Mailgun SPF + MX records (possible future sending domain).
+- Lovable: home-page portrait placeholder replaced with the approved portrait; siteOrigin set to https://phillipwilliamsrealestate.com (commit 855da879). Site still NOT published.

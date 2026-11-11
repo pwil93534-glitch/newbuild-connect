@@ -182,3 +182,10 @@ Phillip confirmed the booking domain is `bookastrategycallwithphillip.com` (with
 - Removed `{{location.name}}` from every footer (it renders the GHL business name, which still contains "Real Estate Group"). Alt text "Phillip Williams Real Estate Group" on the T1/R1 logo image changed to "Phillip Williams".
 - Draft banners kept. Nothing sent; no workflow touched (workflow API not enabled for this location).
 - STILL OPEN: (1) T1/R1 signature images are the OLD personal logo (may show "Real Estate Group") and OLD eXp logo, plus a REALTOR® logo — replace in GHL media with the new pw-mark and current eXp logo; (2) R2 links to phillipwilliamsrealestategroup.com/reader/ — domain pending Nicole's answer; (3) re-select each template inside SA-01/02/04 Send Email actions so workflows pick up the new text; (4) mailing address 16165 N 83rd Ave CONFIRMED by Phillip 2026-11-06; (5) GHL business name still says "Real Estate Group".
+
+## Web address switched to phillipwilliamsrealestate.com (2026-11-11, Phillip approved; Nicole approved domain in writing per Phillip)
+- T1 and R1 signature link: phillipknowsaz.com -> https://phillipwilliamsrealestate.com
+- R2 "Open the reader resources" button: phillipwilliamsrealestategroup.com/reader/ -> https://phillipwilliamsrealestate.com/reader (the Lovable site's reader page)
+- Each template read back after update and matched. Nothing sent; workflows untouched.
+- These links will not work until the domain is connected to the Lovable site and published.
+

@@ -44,11 +44,12 @@ If a question comes up, just reply. I read every response.
 **Subject:** A short checklist you can use
 Hi {{contact.first_name}},
 Here is a checklist that goes with the book:
-- Buying → Buyer Questions Checklist: [SITE DOMAIN]/reader/buyer-questions/
-- Selling → Seller Preparation Checklist: [SITE DOMAIN]/reader/seller-checklist/
-- Relocating → Relocation Checklist: [SITE DOMAIN]/reader/relocation-checklist/
-- Investing → Investor Worksheet: [SITE DOMAIN]/reader/investor-worksheet/
-(No interest selected: send the Reader Resources link, [SITE DOMAIN]/reader/.)
+- Buying → Buyer Questions Checklist: https://phillipwilliamsrealestate.com/downloads/buyer-checklist.pdf
+- Selling → Seller Preparation Checklist: https://phillipwilliamsrealestate.com/downloads/seller-checklist.pdf
+- Relocating → Relocation Checklist: https://phillipwilliamsrealestate.com/downloads/relocation-checklist.pdf
+- Investing → Investor Worksheet: https://phillipwilliamsrealestate.com/downloads/investor-worksheet.pdf
+(No interest selected: send the Reader Resources link, https://phillipwilliamsrealestate.com/reader.)
+(The live HighLevel R2 template currently sends everyone the Reader Resources link.)
 They're general education, not legal, tax or financial advice.
 — Phillip
 [STANDARD FOOTER]

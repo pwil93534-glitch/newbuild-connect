@@ -74,3 +74,34 @@ Not legal, tax, or financial advice.
 
 ## Text (consent-sms only)
 Hi {{contact.first_name}}, it's Phillip Williams. Your copy of The Surprise Advantage has shipped. Reply STOP to opt out.
+
+## S1 — Sphere opt-in invite (one-time, to tag sphere-invite only) — DRAFT, not approved
+Audience: contacts tagged `sphere-invite` (431 as of 2026-11-12). Exclude anyone on DND, tagged "complained - unsubscribed", or with an email HighLevel marks invalid.
+Format: plain text, no images, one link (the unsubscribe). Personal tone so it reads like a note, not a newsletter.
+**Subject (pick one):** Quick question from Phillip / Would you like my market updates? / Checking before I send you anything
+**Preview text:** One question, and a yes/no answer is all I need.
+
+Hi {{contact.first_name}},
+
+It's Phillip Williams. We've crossed paths over the years, and I'm reaching out before I add anyone to my email list.
+
+Once a month I send a short note on what's changing in the Surprise and West Valley housing market: what moved, what it may mean for buyers and sellers, and one question worth asking. No sales pitch, and every number comes with its source and date.
+
+Would you like to get it? Just reply "yes." If I don't hear back, I won't add you, and this is the only email you'll get about it.
+
+If you received a market report from me earlier this week, that went out before I'd asked you. I'm sorry about that, and it won't happen again.
+
+[OPTIONAL — Phillip to decide] I also just published a book, The Surprise Advantage. If you'd like a copy, mention that in your reply.
+
+Thanks, and I hope you're doing well.
+— Phillip
+
+Phillip Williams, REALTOR® | Real Estate Strategist
+Brokered by eXp Realty, LLC · Arizona brokerage license LC634213000
+Arizona real estate license SA657637000
+16165 N 83rd Avenue, Peoria, AZ 85382
+You're receiving this one-time note because we've been in touch before.
+Unsubscribe: {{email.unsubscribe_link}}
+
+Handling replies: each "yes" → add `consent-email` + `market-update-subscriber`, note "Opted in by email reply YYYY-MM-DD", remove `sphere-invite`. No reply after 14 days → remove `sphere-invite`, send nothing further. Unsubscribe or "no" → DND email.
+Before sending: send a test to Phillip's own address and click the unsubscribe link; confirm the sending address with Nicole (open question on the realestategroup domain); send in small batches (e.g. 50/day) to protect sender reputation after this week's complaints.

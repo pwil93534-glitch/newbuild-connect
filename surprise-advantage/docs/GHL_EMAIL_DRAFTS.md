@@ -77,8 +77,9 @@ Hi {{contact.first_name}}, it's Phillip Williams. Your copy of The Surprise Adva
 
 ## S1 — Sphere opt-in invite (one-time, to tag sphere-invite only) — DRAFT, not approved
 Audience: contacts tagged `sphere-invite` (431 as of 2026-11-12). Exclude anyone on DND, tagged "complained - unsubscribed", or with an email HighLevel marks invalid.
-Format: plain text, no images, one link (the unsubscribe). Personal tone so it reads like a note, not a newsletter.
-**Subject (pick one):** Quick question from Phillip / Would you like my market updates? / Checking before I send you anything
+Format: plain text, no images, two links (website, unsubscribe). Personal tone so it reads like a note, not a newsletter.
+**Subject:** Quick question from Phillip
+**Sender:** Phillip Williams <phillip@phillipwilliamsrealestatestrategist.com> (approved by Phillip 2026-11-12; currently set in HighLevel)
 **Preview text:** One question, and a yes/no answer is all I need.
 
 Hi {{contact.first_name}},
@@ -91,7 +92,7 @@ Would you like to get it? Just reply "yes." If I don't hear back, I won't add yo
 
 If you received a market report from me earlier this week, that went out before I'd asked you. I'm sorry about that, and it won't happen again.
 
-[OPTIONAL — Phillip to decide] I also just published a book, The Surprise Advantage. If you'd like a copy, mention that in your reply.
+I also just published a book, The Surprise Advantage. If you'd like a copy, mention that in your reply and I'll follow up with you. You can also read about it at phillipwilliamsrealestate.com.
 
 Thanks, and I hope you're doing well.
 — Phillip
@@ -103,5 +104,5 @@ Arizona real estate license SA657637000
 You're receiving this one-time note because we've been in touch before.
 Unsubscribe: {{email.unsubscribe_link}}
 
-Handling replies: each "yes" → add `consent-email` + `market-update-subscriber`, note "Opted in by email reply YYYY-MM-DD", remove `sphere-invite`. No reply after 14 days → remove `sphere-invite`, send nothing further. Unsubscribe or "no" → DND email.
-Before sending: send a test to Phillip's own address and click the unsubscribe link; confirm the sending address with Nicole (open question on the realestategroup domain); send in small batches (e.g. 50/day) to protect sender reputation after this week's complaints.
+Handling replies: book requests → Phillip replies personally (a copy if available, otherwise the website link). Each "yes" → add `consent-email` + `market-update-subscriber`, note "Opted in by email reply YYYY-MM-DD", remove `sphere-invite`. No reply after 14 days → remove `sphere-invite`, send nothing further. Unsubscribe or "no" → DND email.
+Before sending: send a test to Phillip's own address and click the unsubscribe link; send in small batches (e.g. 50/day) to protect sender reputation after this week's complaints.

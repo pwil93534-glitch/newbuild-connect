@@ -15,7 +15,7 @@ I understand and agree. Here is what I've done:
 
 A few questions so I get this right the first time:
 
-1. Thank you for approving phillipwilliamsrealestate.com and phillipwilliamsrealestatestrategist.com. My website will be phillipwilliamsrealestate.com, with the strategist domain forwarding to it. My CRM currently sends email from phillip@phillip.phillipwilliamsrealestategroup.com. Since that contains "realestategroup," I plan to move my sending address to the new domain. Until then, is it acceptable to keep sending from it, or should I pause?
+1. Thank you for approving phillipwilliamsrealestate.com and phillipwilliamsrealestatestrategist.com. My website will be phillipwilliamsrealestate.com, with the strategist domain forwarding to it. My CRM now sends email from phillip@phillipwilliamsrealestatestrategist.com. (Sending-address question resolved per Phillip 2026-11-12; no need to ask.)
 2. My personal logo previously had "Real Estate Group" under my name. I've removed that line. Do you need to see the revised logo?
 3. For marketing emails sent from my CRM, is there required wording in the footer (brokerage name, license number, Equal Housing)?
 4. Is there anything else on my website, which is unpublished and has the Reader Guide AI chat switched off, that you'd like changed before I launch?

@@ -1,6 +1,6 @@
 # Local Sponsor Pitch + Rate Card — DRAFT, not approved, nothing sent
-For non-settlement-service local businesses only (contractors, trades, cleaning, carpet/flooring, landscaping, pest, pool, movers, insurance agents, restaurants, etc.).
-**Not for:** lenders, title/escrow, home warranty, appraisers, inspectors, or anyone paid out of a real estate closing (RESPA; pending Nicole/eXp compliance answer).
+For non-settlement-service local businesses only (contractors, trades, cleaning, carpet/flooring, landscaping, pest, pool, movers, restaurants, etc.).
+**Not for:** lenders, title/escrow, home warranty, insurance, appraisers, home inspectors, surveyors, or anyone paid out of a real estate closing (RESPA; pending Nicole/eXp compliance answer).
 `[BRACKETS]` = Phillip to fill in. No subscriber numbers are stated anywhere until real numbers exist.
 
 ## Pitch email (sent personally by Phillip, one at a time)
@@ -25,9 +25,9 @@ Phillip Williams
 
 | Placement | What you get | Price |
 |---|---|---|
-| Newsletter sponsor | Logo, 2–3 sentence description and one link in the monthly market email, marked "Sponsor" | [$___ /month] |
-| Book insert | Your business card or a 4×6 card inserted in copies of *The Surprise Advantage* I hand out at listing appointments | [$___ per 25 inserts] |
-| Bundle | Newsletter + book insert | [$___ /month] |
+| Newsletter sponsor | Logo, 2–3 sentence description and one link in the monthly market email, marked "Sponsor" | $150 / 3 months or $500 / 12 months |
+| Book insert | Your business card or a 4×6 card inserted in copies of *The Surprise Advantage* I hand out at listing appointments | $250 / 12 months (directory page in copies printed in 2027, insert card until then) |
+| Bundle | Newsletter + book listing | $650 / 12 months |
 
 - **One sponsor per category** (e.g., one flooring company).
 - **Term:** month to month after a [3]-month minimum; cancel with 30 days' notice.
@@ -43,3 +43,6 @@ Phillip Williams
 3. Decide newsletter frequency: the S1 opt-in email promised **monthly**; the pitch says monthly to match.
 4. Builders (e.g., Pulte): Phillip represents buyers of new construction. Taking builder ad money while representing buyers in that builder's communities is a conflict to disclose or avoid; recommend excluding builders until Nicole weighs in.
 5. Wait until the list has real subscribers so the count you share isn't zero.
+
+## Enrollment forms (2026-11-13)
+Built from Phillip's template: `surprise-advantage/sponsors/Book_Sponsor_Enrollment_Form.docx` and `Newsletter_Sponsor_Enrollment_Form.docx` (+ PDFs). Changes from the template: removed "You will be personally referred to every seller prospect" (paid-referral promise); removed Home Inspection, Home Warranty, Mortgage Lender and Title Company categories; removed leftover "Barbara Riordan" contact and fax; added ROC license field, paid-advertising/no-referral terms, and license disclosures. Prices are Claude's suggestions sized to cover printing, pending Phillip's print cost and eXp's answer on where sponsor payments go.

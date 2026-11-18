@@ -202,3 +202,57 @@ Replace the first-edition block with:
 - Until the first edition is posted: "Your first edition is on its way. Every edition is also posted here, so you can always catch up: [See the Market Update page](https://phillipwilliamsrealestatestrategist.com/market-update)"
 - After the first edition is posted: "You don't have to wait until next month. [Read the Latest Market Update](https://phillipwilliamsrealestatestrategist.com/market-update)"
 Everything else as v2.
+
+## ME-2026-12 — First monthly edition (DRAFT, 2026-11-18, awaiting Phillip's approval)
+Send: Tuesday, December 1, 2026 (first Tuesday of each month; weekly Thursday update unchanged). To: tag `monthly-market-update`, DND skipped.
+Data: Realtor.com Residential Data, "Inventory Core Metrics" ZIP and county files, month 2026-10 (October 2026), downloaded 2026-11-18 from econdata.s3-us-west-2.amazonaws.com/Reports/Core/ (sha256 zip 8ed9f1d4…, county 9664e164…). These are LISTING figures (asking prices, active/pending listings), not closed sales. Surprise totals are Claude's sums of the five Surprise ZIP codes (85374, 85378, 85379, 85387, 85388); year-ago totals back-calculated from Realtor.com's year-over-year changes. Price-reduction share is weighted by active listings. If Realtor.com posts November 2026 data before Dec 1, refresh the numbers and dates before sending.
+
+Subject: Surprise market update: more homes to choose from, fewer going under contract
+Preview text: October numbers for Surprise and Maricopa County, and what they mean for you.
+
+Hi {{contact.first_name}},
+
+Welcome to the first Surprise & West Valley Monthly Market Update. Here's what the numbers showed for October 2026.
+
+**Surprise at a glance (October 2026, five Surprise ZIP codes)**
+- Homes for sale: 1,040 active listings, up about 11% from October 2025 (about 935).
+- Homes going under contract: 280 pending listings, down about 13% from a year ago (about 322).
+- New listings: 364 came on the market in October, down about 7% from a year ago.
+- Price cuts: about 27% of active listings had a price reduction.
+
+**Asking prices by ZIP code (median listing price, October 2026, change vs. October 2025)**
+- 85374: $394,700 (+1.7%), median 45 days on market
+- 85378: $331,000 (−4.8%), 64 days (small sample: 17 active listings)
+- 85379: $441,250 (−4.9%), 57 days
+- 85387: $459,900 (−2.3%), 65 days
+- 85388: $529,900 (+6.1%), 67 days
+
+**Maricopa County for comparison (October 2026)**
+- Median listing price $499,600, down 3.9% from a year ago.
+- 17,649 active listings, up 10.3%. Pending listings 4,356, down 15.2%.
+- Median 59 days on market. About 30% of listings had a price cut.
+
+**What this could mean for you**
+- If you're buying: you have more homes to choose from than a year ago, and more than one in four sellers in Surprise has already reduced their price. That can mean more room to negotiate on price, repairs or closing costs. It still pays to be prepared before you write an offer.
+- If you're selling: buyers have options, so pricing, condition and presentation matter more than they did a year ago. Homes are taking roughly two months to sell in most Surprise ZIP codes. A realistic price from the start usually beats chasing the market down.
+- If you're watching your home's value: asking prices are close to flat in most of Surprise, a little up in some ZIP codes and a little down in others. Your street and your home's condition matter more than the headline number.
+
+A note on these numbers: they are listing figures (asking prices and listing counts) from Realtor.com for October 2026, not closed sales. Every edition will say where its numbers came from and the month they cover.
+
+Want to know what this means for your home or your search? Just reply to this email. It comes straight to me.
+
+Every edition is also posted at https://phillipwilliamsrealestatestrategist.com/market-update
+
+Phillip Williams
+REALTOR® | Real Estate Strategist
+(623) 292-3737
+
+Source: Realtor.com® Residential Data, Inventory Core Metrics by ZIP code and county, October 2026. Surprise totals are sums of ZIP codes 85374, 85378, 85379, 85387 and 85388. Listing data, not closed sales.
+
+[Standard footer as MU-01: eXp brokerage line, licenses, Peoria address, "You're receiving this because you subscribed…", {{email.unsubscribe_link}}]
+
+### Open points for Phillip
+1. Your own read: add one or two sentences from what you're seeing (showings, new-build incentives, offers) in your own words. Optional, but it's what makes this yours.
+2. Closed-sale numbers (sold prices, months of supply) would come from ARMLS, which Claude can't access. If you want them, paste the ARMLS stats for Surprise and Claude will add them with the source and date.
+3. Mortgage rates intentionally left out (keeps clear of credit-advertising rules). Can add Freddie Mac's weekly average with attribution if you want.
+4. Once approved: Claude adds this edition to the site's Market Update page (preview) and loads the email in HighLevel as a draft campaign scheduled for Dec 1, then sends you one [TEST].

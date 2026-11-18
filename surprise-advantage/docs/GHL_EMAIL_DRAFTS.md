@@ -196,7 +196,7 @@ Arizona real estate license SA657637000
 You're receiving this because you subscribed to the Surprise & West Valley Monthly Market Update at phillipwilliamsrealestatestrategist.com.
 Unsubscribe: {{email.unsubscribe_link}}
 
-### MU-01 v3 (2026-11-18) — change from v2 only
+### MU-01 v3 (2026-11-18) — APPROVED by Phillip ("yes, approve it"). Loaded in HighLevel as template `MU-01 Monthly market update — welcome` (6afd2deea094ee50c8c15ade), first-edition-on-its-way wording. Greeting is plain `{{contact.first_name}}`: HighLevel says the Liquid `| default:` form in v2 blocks the send (first name is required on the signup form). Change from v2 only:
 Phillip confirmed he retired from the military ("when I retired" stays). Archive page now exists (preview): https://phillipwilliamsrealestatestrategist.com/market-update — empty until the first edition is published.
 Replace the first-edition block with:
 - Until the first edition is posted: "Your first edition is on its way. Every edition is also posted here, so you can always catch up: [See the Market Update page](https://phillipwilliamsrealestatestrategist.com/market-update)"

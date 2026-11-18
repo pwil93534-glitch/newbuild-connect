@@ -106,3 +106,43 @@ Unsubscribe: {{email.unsubscribe_link}}
 
 Handling replies: book requests → Phillip replies personally (a copy if available, otherwise the website link). Each "yes" → add `consent-email` + `market-update-subscriber`, note "Opted in by email reply YYYY-MM-DD", remove `sphere-invite`. No reply after 14 days → remove `sphere-invite`, send nothing further. Unsubscribe or "no" → DND email.
 Before sending: send a test to Phillip's own address and click the unsubscribe link; send in small batches (e.g. 50/day) to protect sender reputation after this week's complaints.
+
+---
+
+## MU-01 Monthly market update — welcome email (DRAFT, 2026-11-18, awaiting Phillip's approval)
+
+Trigger (proposed): tag `monthly-market-update` added (new strategist-site signup). Send once. Skip if DND.
+From: Phillip Williams <phillip@phillipwilliamsrealestatestrategist.com>
+Subject: You're on the list for the monthly market update
+Preview text: What to expect once a month, and how to reach me in the meantime.
+
+Hi {{contact.first_name}},
+
+Thanks for signing up for my monthly Surprise & West Valley market update.
+
+Here's what to expect. Once a month I'll send you one short email covering:
+
+- What changed in prices, inventory and days on market around Surprise and the West Valley
+- Where each number comes from and the date it covers
+- What it means if you're thinking about buying or selling
+
+No daily emails, no pressure, and no sales pitch. If a month doesn't have much worth saying, I'll keep it short.
+
+While you wait for the first edition, three things that might help:
+
+- Book a strategy call: https://phillipwilliamsrealestatestrategist.com/schedule
+- Request a complimentary copy of my book, The Surprise Advantage: https://phillipwilliamsrealestate.com/complimentary-copy
+- Search homes for sale: https://phillipknowsaz.com
+
+If you have a question about your own situation, just reply to this email. It comes straight to me.
+
+Phillip
+
+Phillip Williams, REALTOR® | Real Estate Strategist
+Brokered by eXp Realty, LLC · Arizona brokerage license LC634213000
+Arizona real estate license SA657637000
+16165 N 83rd Avenue, Peoria, AZ 85382
+(623) 292-3737
+
+You're receiving this because you signed up for the monthly market update at phillipwilliamsrealestatestrategist.com.
+Unsubscribe: {{email.unsubscribe_link}}

@@ -195,3 +195,10 @@ Arizona real estate license SA657637000
 
 You're receiving this because you subscribed to the Surprise & West Valley Monthly Market Update at phillipwilliamsrealestatestrategist.com.
 Unsubscribe: {{email.unsubscribe_link}}
+
+### MU-01 v3 (2026-11-18) — change from v2 only
+Phillip confirmed he retired from the military ("when I retired" stays). Archive page now exists (preview): https://phillipwilliamsrealestatestrategist.com/market-update — empty until the first edition is published.
+Replace the first-edition block with:
+- Until the first edition is posted: "Your first edition is on its way. Every edition is also posted here, so you can always catch up: [See the Market Update page](https://phillipwilliamsrealestatestrategist.com/market-update)"
+- After the first edition is posted: "You don't have to wait until next month. [Read the Latest Market Update](https://phillipwilliamsrealestatestrategist.com/market-update)"
+Everything else as v2.

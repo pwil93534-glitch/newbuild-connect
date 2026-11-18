@@ -146,3 +146,52 @@ Arizona real estate license SA657637000
 
 You're receiving this because you signed up for the monthly market update at phillipwilliamsrealestatestrategist.com.
 Unsubscribe: {{email.unsubscribe_link}}
+
+### MU-01 v2 (2026-11-18) — Phillip's rewrite, with Claude's edits. Awaiting approval.
+Changes from Phillip's version: subject/preview added; first-name fallback; "latest update is ready" link removed until a real archive page exists (it pointed to the home page, which has no update) — replaced with first-edition line; minor trims; footer de-duplicated. "retired" kept pending Phillip's confirmation.
+
+Subject: Welcome — your Surprise & West Valley market update
+Preview text: Thanks for joining. Here's what to expect, plus a thank-you gift.
+
+Hi {{contact.first_name | default: "there"}},
+
+First, thank you for subscribing. I'm glad we're connected.
+
+If you've been following the real estate market, you already know there's no shortage of headlines, opinions and predictions. But the question that matters most is: what does it all mean for you and your family?
+
+That's why I created the Surprise & West Valley Monthly Market Update. My goal is simple: to help you look past the headlines, understand what's actually happening in our local market, and make informed decisions when the time is right.
+
+[FIRST-EDITION LINE — until the archive page exists:]
+Your first edition will arrive early next month.
+[ONCE /market-update EXISTS, replace with:]
+You don't have to wait until next month. Read the latest edition here: [Read the Latest Market Update](https://phillipwilliamsrealestatestrategist.com/market-update)
+
+Here's what you can expect each month:
+- The local picture: home prices, available inventory, and how long homes are staying on the market.
+- Facts, not speculation: every number comes with its source and the date it covers.
+- Perspective that matters: what those changes could mean if you're buying, selling, investing, or simply keeping an eye on your home's value.
+
+No daily emails. No unnecessary noise. Just practical information that respects your time.
+
+A little about me, and why I do this.
+I proudly served 26 years in the U.S. military. That time taught me that preparation matters, that leadership is about serving others, and that trust is earned through your actions. Those principles didn't end when I retired. Today they shape how I serve individuals and families throughout the West Valley.
+
+Whether we're working together for the first time or simply staying connected, you deserve someone who listens, thinks ahead and gives you straight answers. Good real estate decisions don't happen by accident. They start with good information and a clear strategy, and that's what I want this update to give you.
+
+As a thank-you for joining, I'd love to send you a complimentary copy of my book, The Surprise Advantage.
+[Request Your Complimentary Copy](https://phillipwilliamsrealestate.com/complimentary-copy)
+
+One last thing: you never have to wait for the next update to ask me a question. Whether it's about the market, your home's value or an opportunity you're considering, just reply to this email. It comes directly to me, and I'd be glad to hear from you.
+
+Thank you again for being here.
+
+Phillip Williams
+REALTOR® | Real Estate Strategist
+(623) 292-3737
+
+Brokered by eXp Realty, LLC · Arizona brokerage license LC634213000
+Arizona real estate license SA657637000
+16165 N 83rd Avenue, Peoria, AZ 85382
+
+You're receiving this because you subscribed to the Surprise & West Valley Monthly Market Update at phillipwilliamsrealestatestrategist.com.
+Unsubscribe: {{email.unsubscribe_link}}

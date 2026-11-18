@@ -256,3 +256,21 @@ Source: Realtor.com® Residential Data, Inventory Core Metrics by ZIP code and c
 2. Closed-sale numbers (sold prices, months of supply) would come from ARMLS, which Claude can't access. If you want them, paste the ARMLS stats for Surprise and Claude will add them with the source and date.
 3. Mortgage rates intentionally left out (keeps clear of credit-advertising rules). Can add Freddie Mac's weekly average with attribution if you want.
 4. Once approved: Claude adds this edition to the site's Market Update page (preview) and loads the email in HighLevel as a draft campaign scheduled for Dec 1, then sends you one [TEST].
+
+### ME-2026-12 — "From the field" section (2026-11-18, from Phillip's dictation; Claude's edit, awaiting approval)
+Placement: after "Maricopa County for comparison", before "What this could mean for you".
+
+**From the field**
+Here's what I'm seeing on the ground. Buyers are out looking, and they're negotiating. But many homes are priced a little higher than buyers are willing to pay, so they're sitting longer. That lines up with the numbers above.
+
+Markets go up and down. Whether you're buying or selling, what doesn't change is that a good result starts with a good strategy.
+
+For sellers, strategy starts with price. The right price is the one that gets buyers to make an offer, not the highest number you can list at. Price too high and the home usually just sits.
+
+Higher interest rates have also priced some buyers out. One option more people should know about is an assumable loan. Some VA and FHA loans can be taken over by a qualified buyer, who may keep the seller's lower interest rate. The buyer still has to qualify and get the lender's approval. For VA loans, the seller's VA entitlement can stay tied to the loan unless the buyer is an eligible veteran who substitutes their own. I'm [EXACT CREDENTIAL NAME — Phillip to supply], so if you're buying or selling and want to know whether an assumable loan could work for you, just reply and ask.
+
+Left out of Phillip's dictation, and why:
+- The specific condo listing (Biltmore corridor, VA loan at 3.75%): eXp Expert Care (2026-11-18) says property advertising with custom content must go through eXp's compliance channel before it's published, and it has no approved wording for stating an assumable loan rate. Stating a loan rate in an ad can also trigger federal credit-advertising disclosure rules. Also outside Surprise / West Valley (Biltmore is Phoenix). Option: feature it separately after eXp compliance review.
+- That the seller "needs a higher price": a seller client's needs or motivation must not be shared publicly.
+- "7.57%" current rate: no source given; numbers in this update need a source and date.
+- The assumable-loan website: no URL given; add only with the exact address once Phillip confirms it's his and compliant.
